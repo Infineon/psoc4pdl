@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file imo.cypersonality
+* \version 1.0
+*
+* \brief
+* IMO personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="m0s8imo" name="IMO" version="1.0" path="Clocks/Fast" xmlns="http://cypress.com/xsd/cyhwpersonality_v1">
+  <Dependencies>
+    <IpBlock name="s8srsslt" />
+    <Resource name="srss\.clock\.imo" used="true" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="frequency" paramId="frequency" />
+    <ExposedMember key="accuracy"  paramId="accuracy" />
+    <ExposedMember key="error"     paramId="error" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- PDL documentation -->
+    <ParamDoc id="pdlDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/pdl_api_reference_manual/html/group__group__sysclk.html" linkText="Open SysClk Documentation" visible="true" desc="Opens the Peripheral Driver Library Documentation" />
+
+    <ParamChoice id="frequency" name="Frequency (MHz)" group="Internal" default="24000000" visible="true" editable="true" desc="The nominal output frequency">
+        <Entry name="24" value="24000000" visible="true" />
+        <Entry name="28" value="28000000" visible="true" />
+        <Entry name="32" value="32000000" visible="true" />
+        <Entry name="36" value="36000000" visible="true" />
+        <Entry name="40" value="40000000" visible="true" />
+        <Entry name="44" value="44000000" visible="true" />
+        <Entry name="48" value="48000000" visible="true" />
+    </ParamChoice>
+    <ParamRange id="frequencyMHz" name="Frequency in MHz" group="Internal" default="`${frequency / 1000000}`" min="24" max="48" resolution="1" visible="false" editable="false" desc="" />
+    <ParamChoice id="trim" name="Trim with" group="General" default="2" visible="`${hasBlock(&quot;srss[0].clock[0].wco[0]&quot;)}`" editable="true" desc="Allows to trim IMO with WCO">
+        <Entry name="None" value="2" visible="true" />
+        <Entry name="WCO" value="0.2" visible="`${isBlockUsed(&quot;srss[0].clock[0].wco[0]&quot;)}`" />
+    </ParamChoice>
+    <ParamChoice id="accuracy" name="Accuracy" group="Internal" default="`${trim}`" visible="false" editable="false" desc="The expected accuracy of the output frequency">
+      <Entry name="2%" value="2" visible="true" />
+      <Entry name="0.2%" value="0.2" visible="true" />
+    </ParamChoice>
+    <ParamBool id="error" name="Clock Error" group="Internal" default="false" visible="false" editable="false" desc="" />
+
+    <ParamString id="frequencyInfo" name="Frequency" group="General" default="`${formatFrequency(frequency, accuracy)}`" visible="true" editable="false" desc="The nominal output frequency" />
+
+  </Parameters>
+  <DRCs>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigDefine name="CY_CFG_SYSCLK_IMO_ENABLED" value="1" public="false" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_IMO_FREQ_HZ" value="`${frequency}`UL" public="true" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_IMO_FREQ_MHZ" value="`${frequencyMHz}`UL" public="true" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_IMO_FREQ" value="CY_SYSCLK_IMO_`${frequencyMHz}`MHZ" public="true" include="true" />
+    <ConfigFunction signature="__STATIC_INLINE void Cy_SysClk_ImoInit()" body="    Cy_SysClk_ImoSetFrequency(CY_CFG_SYSCLK_IMO_FREQ);" public="false" include="true" />
+  </ConfigFirmware>
+</Personality>

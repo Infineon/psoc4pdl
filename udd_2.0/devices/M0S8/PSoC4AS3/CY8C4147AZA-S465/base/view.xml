@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<baseview>
+  <mcu>
+  </mcu>
+  <vendor>Cypress</vendor>
+  <flash>131072</flash>
+  <ram>16384</ram>
+  <package>64-TQFP</package>
+  <minvoltage>1710</minvoltage>
+  <maxvoltage>5500</maxvoltage>
+  <description>The CY8C4147AZA-S465 device.</description>
+</baseview>

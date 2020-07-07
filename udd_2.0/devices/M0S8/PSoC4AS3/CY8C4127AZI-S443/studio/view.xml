@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parameters xml_version="1" xmlns="http://cypress.com/xsd/cydatawounding_v1">
+  <Param name="PartNumber" value="CY8C4127AZI-S443" />
+  <Param name="PartAvailability" value="Active" />
+  <Param name="DeviceDie" value="PSoC4AS3" />
+  <Param name="Silicon_Revision" value="PRODUCTION" />
+  <Param name="Package" value="48-TQFP" />
+  <Param name="CPU" value="ARM CM0+" />
+  <Param name="DeviceSeries" value="PSoC 4100S Plus" />
+  <Param name="Speed_MHz" value="24" />
+  <Param name="Flash_KB" value="128" />
+  <Param name="SRAM_KB" value="16" />
+  <Param name="UDB_Count" value="0" />
+  <Param name="UAB_Count" value="0" />
+  <Param name="SAR12_Count" value="1" />
+  <Param name="SAR12_REMOVED" value="NA" />
+  <Param name="SAR12Sample_ksps" value="806" />
+  <Param name="OpAmp_Count" value="2" />
+  <Param name="OpAmp_Removed" value="NA" />
+  <Param name="LPComp_Count" value="2" />
+  <Param name="LPComp_REMOVED" value="NA" />
+  <Param name="Comp_Count" value="1" />
+  <Param name="Comp_REMOVED" value="NA" />
+  <Param name="DAC8_Count" value="2" />
+  <Param name="DAC8_removed" value="NA" />
+  <Param name="SCB_Count" value="4" />
+  <Param name="SCB_removed" value="4" />
+  <Param name="TimerCounterPWM_Count" value="8" />
+  <Param name="TimerCounterPWM_removed" value="NA" />
+  <Param name="CAN20B_Count" value="0" />
+  <Param name="CapSense" value="N" />
+  <Param name="TMG" value="N" />
+  <Param name="CapSenseADC" value="Y" />
+  <Param name="IndSense" value="N" />
+  <Param name="IndSense_Sensors" value="0" />
+  <Param name="DirDriveLCD" value="Y" />
+  <Param name="DMAchannels_count" value="8" />
+  <Param name="PLL_Count" value="1" />
+  <Param name="IO_Count" value="38" />
+  <Param name="Vddmin_volts" value="1.71" />
+  <Param name="Vddmax_volts" value="5.5" />
+  <Param name="TempMin_Celsius" value="-40" />
+  <Param name="TempMax_Celsius" value="85" />
+  <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
+  <Param name="SiliconID" value="0x259911B5" />
+  <Param name="REQUIRED_KITS" value="None" />
+  <Param name="Next_Best_Alt_Part" value="None" />
+  <Param name="EDITING_SUPPORT" value="Schematic" />
+  <Param name="PROJECT_TEMPLATE" value="P41S3_S443_445_465.zip" />
+</Parameters>

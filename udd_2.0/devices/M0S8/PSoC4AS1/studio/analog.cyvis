@@ -1,0 +1,3911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.3" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
+  <Page index="0" name="Architecture" enabled="true" shapeCount="214">
+    <Instance shapeName="Shape_11" zorder="36" guid="067c1b47-54fe-4ffb-bb30-a3275a288692" name="GPIO_P4_0" component="cy_all_pin">
+      <Location x="36" y="360" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="372" />
+          <Point x="60" y="372" />
+          <Point x="65.99999" y="366" />
+          <Point x="60" y="360" />
+          <Point x="36" y="360" />
+          <Point x="36" y="372" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="366" />
+          <Text>P4[0]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_12" zorder="37" guid="ad435fc5-17a6-4c95-969e-d4bead04bd22" name="GPIO_P4_1" component="cy_all_pin">
+      <Location x="36" y="342" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="354" />
+          <Point x="60" y="354" />
+          <Point x="65.99999" y="348" />
+          <Point x="60" y="342" />
+          <Point x="36" y="342" />
+          <Point x="36" y="354" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="348" />
+          <Text>P4[1]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_13" zorder="38" guid="4d51b10c-373b-4bdf-b9ee-f0a271071c68" name="GPIO_P4_2" component="cy_all_pin">
+      <Location x="36" y="324" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="336" />
+          <Point x="60" y="336" />
+          <Point x="65.99999" y="330" />
+          <Point x="60" y="324" />
+          <Point x="36" y="324" />
+          <Point x="36" y="336" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="330" />
+          <Text>P4[2]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_14" zorder="39" guid="5fda3aa2-45b6-4c55-ad75-ed5b6c0e7cb1" name="GPIO_P4_3" component="cy_all_pin">
+      <Location x="36" y="306" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="318" />
+          <Point x="60" y="318" />
+          <Point x="65.99999" y="312" />
+          <Point x="60" y="306" />
+          <Point x="36" y="306" />
+          <Point x="36" y="318" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="312" />
+          <Text>P4[3]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_15" zorder="40" guid="771f741b-fe7c-4807-9b22-2a7a19c03321" name="GPIO_P3_0" component="cy_all_pin">
+      <Location x="36" y="234" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="246" />
+          <Point x="60" y="246" />
+          <Point x="65.99999" y="240" />
+          <Point x="60" y="234" />
+          <Point x="36" y="234" />
+          <Point x="36" y="246" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="240" />
+          <Text>P3[0]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_16" zorder="41" guid="b4bd746a-a4c6-4e6b-bfce-59633cbba8f0" name="GPIO_P3_1" component="cy_all_pin">
+      <Location x="36" y="216" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="228" />
+          <Point x="60" y="228" />
+          <Point x="65.99999" y="222" />
+          <Point x="60" y="216" />
+          <Point x="36" y="216" />
+          <Point x="36" y="228" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="222" />
+          <Text>P3[1]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_17" zorder="42" guid="ecf7fdd9-5c97-428e-bb21-daa51cf1d3d1" name="GPIO_P3_2" component="cy_all_pin">
+      <Location x="36" y="198" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="210" />
+          <Point x="60" y="210" />
+          <Point x="65.99999" y="204" />
+          <Point x="60" y="198" />
+          <Point x="36" y="198" />
+          <Point x="36" y="210" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="204" />
+          <Text>P3[2]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_18" zorder="43" guid="a9856eee-b893-4ca3-84ee-c6a9e78aea30" name="GPIO_P3_3" component="cy_all_pin">
+      <Location x="36" y="180" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="192" />
+          <Point x="60" y="192" />
+          <Point x="65.99999" y="186" />
+          <Point x="60" y="180" />
+          <Point x="36" y="180" />
+          <Point x="36" y="192" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="186" />
+          <Text>P3[3]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_19" zorder="44" guid="161ee896-d475-449d-88ba-cd519f68ca2b" name="GPIO_P3_4" component="cy_all_pin">
+      <Location x="36" y="162" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="174" />
+          <Point x="60" y="174" />
+          <Point x="65.99999" y="168" />
+          <Point x="60" y="162" />
+          <Point x="36" y="162" />
+          <Point x="36" y="174" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="168" />
+          <Text>P3[4]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_20" zorder="45" guid="80c629f4-68aa-4dd6-b1c3-f1e0b29e25cc" name="GPIO_P3_5" component="cy_all_pin">
+      <Location x="36" y="144" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="156" />
+          <Point x="60" y="156" />
+          <Point x="65.99999" y="150" />
+          <Point x="60" y="144" />
+          <Point x="36" y="144" />
+          <Point x="36" y="156" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="150" />
+          <Text>P3[5]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_21" zorder="46" guid="24f74733-6634-48de-b106-9200ee6d3796" name="GPIO_P3_6" component="cy_all_pin">
+      <Location x="36" y="126" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="138" />
+          <Point x="60" y="138" />
+          <Point x="65.99999" y="132" />
+          <Point x="60" y="126" />
+          <Point x="36" y="126" />
+          <Point x="36" y="138" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="132" />
+          <Text>P3[6]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_22" zorder="47" guid="517f8ee9-6662-488a-ae15-87ab4633d444" name="GPIO_P3_7" component="cy_all_pin">
+      <Location x="36" y="108" />
+      <Size width="29.99999" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="36" y="120" />
+          <Point x="60" y="120" />
+          <Point x="65.99999" y="114" />
+          <Point x="60" y="108" />
+          <Point x="36" y="108" />
+          <Point x="36" y="120" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="48" y="114" />
+          <Text>P3[7]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_23" zorder="48" guid="b421e330-1b46-4f92-9d84-dd3ae6f9b60e" name="GPIO_P0_0" component="cy_all_pin">
+      <Location x="108" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="108" y="36" />
+          <Point x="108" y="60" />
+          <Point x="114" y="65.99999" />
+          <Point x="120" y="60" />
+          <Point x="120" y="36" />
+          <Point x="108" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="114" y="48" />
+          <Text>P0[0]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_24" zorder="49" guid="b6ec4d35-19bf-4b43-8627-6d474fe9b35f" name="GPIO_P0_1" component="cy_all_pin">
+      <Location x="126" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="126" y="36" />
+          <Point x="126" y="60" />
+          <Point x="132" y="65.99999" />
+          <Point x="138" y="60" />
+          <Point x="138" y="36" />
+          <Point x="126" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="132" y="48" />
+          <Text>P0[1]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_25" zorder="50" guid="3e8cddc8-191d-4282-96f0-51c5214f25fa" name="GPIO_P0_2" component="cy_all_pin">
+      <Location x="144" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="144" y="36" />
+          <Point x="144" y="60" />
+          <Point x="150" y="65.99999" />
+          <Point x="156" y="60" />
+          <Point x="156" y="36" />
+          <Point x="144" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="150" y="48" />
+          <Text>P0[2]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_26" zorder="51" guid="c6426453-796e-4a67-9471-bb7d0f9f510d" name="GPIO_P0_3" component="cy_all_pin">
+      <Location x="162" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="162" y="36" />
+          <Point x="162" y="60" />
+          <Point x="168" y="65.99999" />
+          <Point x="174" y="60" />
+          <Point x="174" y="36" />
+          <Point x="162" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="168" y="48" />
+          <Text>P0[3]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_27" zorder="52" guid="1c2cef65-c317-457e-ae71-c1f416a7d90a" name="GPIO_P0_4" component="cy_all_pin">
+      <Location x="180" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="180" y="36" />
+          <Point x="180" y="60" />
+          <Point x="186" y="65.99999" />
+          <Point x="192" y="60" />
+          <Point x="192" y="36" />
+          <Point x="180" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="186" y="48" />
+          <Text>P0[4]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_28" zorder="53" guid="1fe077ca-0725-4347-8fb7-085765cbb76d" name="GPIO_P0_5" component="cy_all_pin">
+      <Location x="198" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="198" y="36" />
+          <Point x="198" y="60" />
+          <Point x="204" y="65.99999" />
+          <Point x="210" y="60" />
+          <Point x="210" y="36" />
+          <Point x="198" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="204" y="48" />
+          <Text>P0[5]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_29" zorder="54" guid="5455df93-fb07-4d9d-8958-e7f032ca5e3b" name="GPIO_P0_6" component="cy_all_pin">
+      <Location x="216" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="216" y="36" />
+          <Point x="216" y="60" />
+          <Point x="222" y="65.99999" />
+          <Point x="228" y="60" />
+          <Point x="228" y="36" />
+          <Point x="216" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="222" y="48" />
+          <Text>P0[6]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_30" zorder="55" guid="32b66705-0729-4107-b1d4-69e468ae9dc8" name="GPIO_P0_7" component="cy_all_pin">
+      <Location x="234" y="36" />
+      <Size width="12" height="29.99999" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="234" y="36" />
+          <Point x="234" y="60" />
+          <Point x="240" y="65.99999" />
+          <Point x="246" y="60" />
+          <Point x="246" y="36" />
+          <Point x="234" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="240" y="48" />
+          <Text>P0[7]</Text>
+          <Vertical value="true" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_31" zorder="56" guid="4131e3c0-4f92-4576-8fda-15c9a24670fe" name="GPIO_P1_0" component="cy_all_pin">
+      <Location x="300" y="108" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="108" />
+          <Point x="306" y="108" />
+          <Point x="300" y="114" />
+          <Point x="306" y="120" />
+          <Point x="330" y="120" />
+          <Point x="330" y="108" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="114" />
+          <Text>P1[0]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_32" zorder="57" guid="5ae01318-ac0c-4c70-8f3b-82ef50d3bfd3" name="GPIO_P1_1" component="cy_all_pin">
+      <Location x="300" y="126" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="126" />
+          <Point x="306" y="126" />
+          <Point x="300" y="132" />
+          <Point x="306" y="138" />
+          <Point x="330" y="138" />
+          <Point x="330" y="126" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="132" />
+          <Text>P1[1]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_33" zorder="58" guid="3e2715c6-c4f6-4625-aa52-2a7ef4b67adf" name="GPIO_P1_2" component="cy_all_pin">
+      <Location x="300" y="144" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="144" />
+          <Point x="306" y="144" />
+          <Point x="300" y="150" />
+          <Point x="306" y="156" />
+          <Point x="330" y="156" />
+          <Point x="330" y="144" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="150" />
+          <Text>P1[2]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_34" zorder="59" guid="5fdfab70-c213-469b-85f7-c56d94f00ad9" name="GPIO_P1_3" component="cy_all_pin">
+      <Location x="300" y="162" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="162" />
+          <Point x="306" y="162" />
+          <Point x="300" y="168" />
+          <Point x="306" y="174" />
+          <Point x="330" y="174" />
+          <Point x="330" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="168" />
+          <Text>P1[3]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_35" zorder="60" guid="935fb15b-9730-4288-8e8b-de9016c79d75" name="GPIO_P1_4" component="cy_all_pin">
+      <Location x="300" y="180" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="180" />
+          <Point x="306" y="180" />
+          <Point x="300" y="186" />
+          <Point x="306" y="192" />
+          <Point x="330" y="192" />
+          <Point x="330" y="180" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="186" />
+          <Text>P1[4]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_36" zorder="61" guid="2d8bc849-9e7a-4ab4-9397-dfccf5adbfd0" name="GPIO_P1_5" component="cy_all_pin">
+      <Location x="300" y="198" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="198" />
+          <Point x="306" y="198" />
+          <Point x="300" y="204" />
+          <Point x="306" y="210" />
+          <Point x="330" y="210" />
+          <Point x="330" y="198" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="204" />
+          <Text>P1[5]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_37" zorder="62" guid="661f5a7c-cb69-4e91-bada-2f722a201299" name="GPIO_P1_6" component="cy_all_pin">
+      <Location x="300" y="216" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="216" />
+          <Point x="306" y="216" />
+          <Point x="300" y="222" />
+          <Point x="306" y="228" />
+          <Point x="330" y="228" />
+          <Point x="330" y="216" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="222" />
+          <Text>P1[6]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_38" zorder="63" guid="536719b1-9c3b-4ef8-89e0-f9b2ad9b562e" name="GPIO_P1_7" component="cy_all_pin">
+      <Location x="300" y="234" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="234" />
+          <Point x="306" y="234" />
+          <Point x="300" y="240" />
+          <Point x="306" y="246" />
+          <Point x="330" y="246" />
+          <Point x="330" y="234" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="240" />
+          <Text>P1[7]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_39" zorder="64" guid="71529121-f203-4416-9315-45f40d5a67d8" name="GPIO_P2_0" component="cy_all_pin">
+      <Location x="300" y="282" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="294" />
+          <Point x="306" y="294" />
+          <Point x="300" y="288" />
+          <Point x="306" y="282" />
+          <Point x="330" y="282" />
+          <Point x="330" y="294" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="288" />
+          <Text>P2[0]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_40" zorder="65" guid="3a740357-6541-4025-9556-dca9dcf22b83" name="GPIO_P2_1" component="cy_all_pin">
+      <Location x="300" y="300" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="312" />
+          <Point x="306" y="312" />
+          <Point x="300" y="306" />
+          <Point x="306" y="300" />
+          <Point x="330" y="300" />
+          <Point x="330" y="312" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="306" />
+          <Text>P2[1]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_41" zorder="66" guid="19b11b74-ba72-4ed3-9c7e-b3168cb9ce10" name="GPIO_P2_2" component="cy_all_pin">
+      <Location x="300" y="318" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="330" />
+          <Point x="306" y="330" />
+          <Point x="300" y="324" />
+          <Point x="306" y="318" />
+          <Point x="330" y="318" />
+          <Point x="330" y="330" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="324" />
+          <Text>P2[2]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_42" zorder="67" guid="0f7af0fe-5671-4f11-85ac-7bf7e6971212" name="GPIO_P2_3" component="cy_all_pin">
+      <Location x="300" y="336" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="348" />
+          <Point x="306" y="348" />
+          <Point x="300" y="342" />
+          <Point x="306" y="336" />
+          <Point x="330" y="336" />
+          <Point x="330" y="348" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="342" />
+          <Text>P2[3]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_43" zorder="68" guid="7318525e-49fe-42ef-9027-397a1c32c91b" name="GPIO_P2_4" component="cy_all_pin">
+      <Location x="300" y="354" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="366" />
+          <Point x="306" y="366" />
+          <Point x="300" y="360" />
+          <Point x="306" y="354" />
+          <Point x="330" y="354" />
+          <Point x="330" y="366" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="360" />
+          <Text>P2[4]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_44" zorder="69" guid="5151950d-28ac-4d98-8acd-3bf39dc6391c" name="GPIO_P2_5" component="cy_all_pin">
+      <Location x="300" y="372" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="384" />
+          <Point x="306" y="384" />
+          <Point x="300" y="378" />
+          <Point x="306" y="372" />
+          <Point x="330" y="372" />
+          <Point x="330" y="384" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="378" />
+          <Text>P2[5]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_45" zorder="70" guid="ac736ae7-cfce-4bad-89d8-b740988581b8" name="GPIO_P2_6" component="cy_all_pin">
+      <Location x="300" y="390" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="402" />
+          <Point x="306" y="402" />
+          <Point x="300" y="396" />
+          <Point x="306" y="390" />
+          <Point x="330" y="390" />
+          <Point x="330" y="402" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="396" />
+          <Text>P2[6]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_46" zorder="71" guid="4a5f2ad2-8510-43e1-a125-86d7cc7a8c48" name="GPIO_P2_7" component="cy_all_pin">
+      <Location x="300" y="408" />
+      <Size width="29.99997" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="330" y="420" />
+          <Point x="306" y="420" />
+          <Point x="300" y="414" />
+          <Point x="306" y="408" />
+          <Point x="330" y="408" />
+          <Point x="330" y="420" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="318" y="414" />
+          <Text>P2[7]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_47" zorder="72" guid="bbe43154-9294-4eab-acdf-cd2d428c5694" name="legend_1" component="cy_all_legend">
+      <Location x="48" y="386" />
+      <Size width="204" height="52" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="386" />
+          <Size width="114" height="52" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="162" y="386" />
+          <Size width="90" height="52" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="96" y="401" />
+          <Text>Mux Group</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="128, 128, 128" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Rectangle>
+          <Location x="56" y="394" />
+          <Size width="30" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="128, 128, 128" style="Percent25" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="96" y="423" />
+          <Text>Connection</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="128, 128, 128" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="195.0686" y="423" />
+          <Text>Closed</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="128, 128, 128" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Ellipse>
+          <Location x="174" y="416" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="114, 237, 114" />
+          </Fill>
+        </Ellipse>
+        <Annotation>
+          <Location x="195.0686" y="401" />
+          <Text>Open</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="128, 128, 128" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Ellipse>
+          <Location x="174" y="395" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+        <Line>
+          <Point x="60" y="417" />
+          <Point x="78" y="417" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.25">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="70" y="425" />
+          <Point x="70" y="417" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.25">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+        </Line>
+        <Ellipse>
+          <Location x="68.51563" y="415.7539" />
+          <Size width="3" height="3" />
+          <NoOutline />
+          <Fill>
+            <SolidBrush color="128, 128, 128" />
+          </Fill>
+        </Ellipse>
+        <Ellipse>
+          <Location x="58" y="395" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+        <Ellipse>
+          <Location x="72" y="395" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_48" zorder="73" guid="28ac28c7-bd22-4571-9ac5-12e701475574" name="LPCOMP1" component="cy_m0s8_lpcomp">
+      <Location x="180" y="132" />
+      <Size width="72" height="54" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="180" y="132" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="180" y="144" />
+          <Size width="72" height="42" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="180" y="132" />
+          <Size width="72" height="12" />
+          <Text>LPCOMP1</Text>
+          <Vertical value="false" />
+          <Expression>LPCOMP`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="156" />
+          <Text>vminus</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($InvertTerminals) ? "vminus" : "vplus"`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="174" />
+          <Text>vplus</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=(!$InvertTerminals) ? "vminus" : "vplus"`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_49" zorder="74" guid="d9dd1d92-6ba8-452b-96e2-c46a7b5aa53c" name="LPCOMP0" component="cy_m0s8_lpcomp">
+      <Location x="180" y="192" />
+      <Size width="72" height="54" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="180" y="192" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="180" y="204" />
+          <Size width="72" height="42" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="180" y="192" />
+          <Size width="72" height="12" />
+          <Text>LPCOMP0</Text>
+          <Vertical value="false" />
+          <Expression>LPCOMP`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="216" />
+          <Text>vminus</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($InvertTerminals) ? "vminus" : "vplus"`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="234" />
+          <Text>vplus</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=(!$InvertTerminals) ? "vminus" : "vplus"`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_50" zorder="75" guid="bfd18488-2ac8-492b-b4e2-b105fadcbfe1" name="CSD0" component="cy_m0s8_csd">
+      <Location x="180" y="252" />
+      <Size width="72" height="126" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="180" y="264" />
+          <Size width="72" height="114" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="180" y="252" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="180" y="252" />
+          <Size width="72" height="12" />
+          <Text>CSD0</Text>
+          <Vertical value="false" />
+          <Expression>CSD`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="276" />
+          <Text>sense</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="294" />
+          <Text>shield</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="312" />
+          <Text>csh</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="330" />
+          <Text>cmod</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="366" />
+          <Text>vref_ext</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Annotation>
+          <Location x="183" y="348" />
+          <Text>shield_pad</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_54" zorder="76" guid="f7da91a7-7581-4269-87df-b40ca822d5df" name="ioss0_port0_p0_p40" component="swh">
+      <Location x="108" y="66" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[0], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="108" y="66" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_55" zorder="77" guid="7bd1c44a-3155-4a0b-ab69-87ded66d555f" name="ioss0_port0_p0_p50" component="swh">
+      <Location x="108" y="84" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[0], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="108" y="84" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_56" zorder="78" guid="ad2cc77c-67ab-4b7a-b869-2808fbc00535" name="ioss0_port0_p0_p41" component="swh">
+      <Location x="126" y="66" />
+      <Size width="11.99999" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[1], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="126" y="66" />
+          <Size width="11.99999" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_57" zorder="79" guid="88dc44fb-353d-4d5b-a54b-b1cdd9f308d0" name="ioss0_port0_p0_p51" component="swh">
+      <Location x="126" y="84" />
+      <Size width="11.99999" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[1], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="126" y="84" />
+          <Size width="11.99999" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_58" zorder="80" guid="871310aa-76cb-47c3-84a7-11feb8e0ef3f" name="ioss0_port0_p0_p42" component="swh">
+      <Location x="144" y="66" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[2], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="144" y="66" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_59" zorder="81" guid="870fb283-32ef-4502-b0bf-016271f0ebb7" name="ioss0_port0_p0_p52" component="swh">
+      <Location x="144" y="84" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[2], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="144" y="84" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_60" zorder="82" guid="6a842bfa-d9e1-415b-9a2f-045df1fb80f7" name="ioss0_port0_p0_p43" component="swh">
+      <Location x="162" y="66" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[3], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="162" y="66" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_61" zorder="83" guid="dee7f640-1cf5-490e-90c5-dea6a65b8118" name="ioss0_port0_p0_p53" component="swh">
+      <Location x="162" y="84" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[3], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="162" y="84" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_62" zorder="84" guid="dd889717-3844-48bb-8a9b-c9d779779dc6" name="ioss0_port0_p0_p44" component="swh">
+      <Location x="180" y="66" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="180" y="66" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_63" zorder="85" guid="2208d54e-68e5-4235-af56-82076daf3575" name="ioss0_port0_p0_p54" component="swh">
+      <Location x="180" y="84" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="180" y="84" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_64" zorder="86" guid="37dc0b5b-f9fb-4466-8bcd-35cac348609f" name="ioss0_port0_p0_p45" component="swh">
+      <Location x="198" y="66" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="198" y="66" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_65" zorder="87" guid="268bd15d-59dc-4c44-bdec-d06d141de913" name="ioss0_port0_p0_p55" component="swh">
+      <Location x="198" y="84" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="198" y="84" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_66" zorder="88" guid="0c7f2fe0-487c-4f7d-9e21-9fb4fb2fa430" name="ioss0_port0_p0_p46" component="swh">
+      <Location x="216" y="66" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="216" y="66" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_67" zorder="89" guid="4eedcfcd-2233-49cb-a963-bbddcbf6bada" name="ioss0_port0_p0_p56" component="swh">
+      <Location x="216" y="84" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="216" y="84" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_68" zorder="90" guid="fe1f8aa2-ae19-4370-928d-01ca0508dc2f" name="ioss0_port0_p0_p47" component="swh">
+      <Location x="234" y="66" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="234" y="66" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_69" zorder="91" guid="38817386-1aee-49c2-8d39-060039a3cc69" name="ioss0_port0_p0_p57" component="swh">
+      <Location x="234" y="84" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[0].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="234" y="84" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_70" zorder="92" guid="d6e2117e-2d32-4a46-b5a5-2a023d1e044a" name="ioss0_port1_p1_p40" component="swh">
+      <Location x="288" y="108" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="108" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_71" zorder="93" guid="0c49112d-f442-4170-a3e4-b2456d783f24" name="ioss0_port1_p1_p50" component="swh">
+      <Location x="270" y="108" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="108" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_72" zorder="94" guid="06e9f287-89d1-42ad-8346-b4ace51aa5d3" name="ioss0_port1_p1_p41" component="swh">
+      <Location x="288" y="126" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[1].pin[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="126" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_73" zorder="95" guid="4ed9b392-14c8-458e-8747-4819f58ddfd1" name="ioss0_port1_p1_p51" component="swh">
+      <Location x="270" y="126" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[1].pin[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="126" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_74" zorder="96" guid="058345d5-3fba-47e5-99c8-4c62159cc7c3" name="ioss0_port1_p1_p42" component="swh">
+      <Location x="288" y="144" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[2]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="144" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_75" zorder="97" guid="df676143-0d14-4cba-89bf-313427e6fb5f" name="ioss0_port1_p1_p52" component="swh">
+      <Location x="270" y="144" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[2]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="144" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_76" zorder="98" guid="65a7be4e-aaed-4d54-9440-3f53420b0fff" name="ioss0_port1_p1_p43" component="swh">
+      <Location x="288" y="162" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[3]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="162" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_77" zorder="99" guid="ad82194a-b985-421d-8054-98e1683f77f4" name="ioss0_port1_p1_p53" component="swh">
+      <Location x="270" y="162" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[3]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="162" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_78" zorder="100" guid="6d13fefc-3a58-4c3d-b876-97f8bc5e86dc" name="ioss0_port1_p1_p44" component="swh">
+      <Location x="288" y="180" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="180" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_79" zorder="101" guid="6038789a-30ae-45b4-96bc-a2caf5f63a89" name="ioss0_port1_p1_p54" component="swh">
+      <Location x="270" y="180" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="180" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_80" zorder="102" guid="00cbb410-61f2-43f3-90d0-471cf573b242" name="ioss0_port1_p1_p45" component="swh">
+      <Location x="288" y="198" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="198" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_81" zorder="103" guid="4e64e24a-7823-436b-ac46-b4b828f0db48" name="ioss0_port1_p1_p55" component="swh">
+      <Location x="270" y="198" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="198" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_82" zorder="104" guid="f4c55743-1700-47f2-be9b-67908cb38dc3" name="ioss0_port1_p1_p46" component="swh">
+      <Location x="288" y="216" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="216" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_83" zorder="105" guid="e7d9eb75-f683-430d-b2ab-973772b76e19" name="ioss0_port1_p1_p56" component="swh">
+      <Location x="270" y="216" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="216" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_84" zorder="106" guid="1e5600f9-690e-430e-83b6-3bbb5797792c" name="ioss0_port1_p1_p47" component="swh">
+      <Location x="288" y="234" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="234" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_85" zorder="107" guid="ef895d2a-c5a1-4153-9176-64b43365d993" name="ioss0_port1_p1_p57" component="swh">
+      <Location x="270" y="234" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[1].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="234" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_86" zorder="108" guid="32dc0ad2-e988-4417-a354-df8d0e2e14ad" name="ioss0_port3_p3_p47" component="swh">
+      <Location x="65.99999" y="108" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[3].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="108" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_87" zorder="109" guid="a373f074-941f-4ab1-a2c8-8dce86b0a977" name="ioss0_port3_p3_p57" component="swh">
+      <Location x="83.99999" y="108" />
+      <Size width="12" height="11.99999" />
+      <ShapeTags>wl:ioss[0].port[3].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="108" />
+          <Size width="12" height="11.99999" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_88" zorder="110" guid="57f67b74-cc8a-43df-9cf4-f33e92cb4928" name="ioss0_port3_p3_p46" component="swh">
+      <Location x="65.99999" y="126" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="126" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_89" zorder="111" guid="fecc2120-45e6-4f88-a599-543a1074a2a0" name="ioss0_port3_p3_p56" component="swh">
+      <Location x="83.99999" y="126" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="126" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_90" zorder="112" guid="74620a5b-24f8-41dd-b2f9-13280e958b45" name="ioss0_port3_p3_p45" component="swh">
+      <Location x="65.99999" y="144" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="144" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_91" zorder="113" guid="4c1e0004-7dab-48db-a6e0-6d755dbca6fe" name="ioss0_port3_p3_p55" component="swh">
+      <Location x="83.99999" y="144" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="144" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_92" zorder="114" guid="850396a7-d807-4c63-9520-e9a8c26c4375" name="ioss0_port3_p3_p44" component="swh">
+      <Location x="65.99999" y="162" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="162" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_93" zorder="115" guid="a97963b5-7c43-451a-8ce8-571cd1f57cd0" name="ioss0_port3_p3_p54" component="swh">
+      <Location x="83.99999" y="162" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="162" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_94" zorder="116" guid="9c1c54d4-3977-4671-a6df-7421114f5f03" name="ioss0_port3_p3_p43" component="swh">
+      <Location x="65.99999" y="180" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[3]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="180" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_95" zorder="117" guid="00cdf0a0-98a3-4afc-9825-fb3481c93b70" name="ioss0_port3_p3_p53" component="swh">
+      <Location x="83.99999" y="180" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[3]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="180" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_96" zorder="118" guid="3aa049a7-9c4b-430e-b24f-8c61291b6806" name="ioss0_port3_p3_p42" component="swh">
+      <Location x="65.99999" y="198" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[2]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="198" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_97" zorder="119" guid="398deb2a-b6aa-4947-b8d2-d5e9f8ed108a" name="ioss0_port3_p3_p52" component="swh">
+      <Location x="83.99999" y="198" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[2]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="198" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_98" zorder="120" guid="ef338298-8142-4821-8152-3b8a57e37b39" name="ioss0_port3_p3_p41" component="swh">
+      <Location x="65.99999" y="216" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="216" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_99" zorder="121" guid="577b56a2-4780-46a7-88bc-013b11048f65" name="ioss0_port3_p3_p51" component="swh">
+      <Location x="83.99999" y="216" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="216" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_100" zorder="122" guid="01ad6778-29f9-4f65-ae70-39a74c1a7aa8" name="ioss0_port3_p3_p40" component="swh">
+      <Location x="65.99999" y="234" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="234" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_101" zorder="123" guid="5529505f-bf82-4cf8-b6a3-0f8181566b9c" name="ioss0_port3_p3_p50" component="swh">
+      <Location x="83.99999" y="234" />
+      <Size width="12" height="11.99998" />
+      <ShapeTags>wl:ioss[0].port[3].pin[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="234" />
+          <Size width="12" height="11.99998" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_102" zorder="124" guid="3ae1661c-11dd-4589-a481-738743eafb4d" name="ioss0_port4_p4_p43" component="swh">
+      <Location x="65.99999" y="306" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="306" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_103" zorder="125" guid="7e781fbc-3543-436e-86fa-300c9bb40240" name="ioss0_port4_p4_p53" component="swh">
+      <Location x="83.99999" y="306" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="306" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_104" zorder="126" guid="58a898bf-c9e6-4813-bad2-ad71ea09c85e" name="ioss0_port4_p4_p42" component="swh">
+      <Location x="65.99999" y="324" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[2], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="324" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_105" zorder="127" guid="7b0b0614-5e02-41ba-b810-ef496ba54b4c" name="ioss0_port4_p4_p52" component="swh">
+      <Location x="83.99999" y="324" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[2], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="324" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_106" zorder="128" guid="b574daff-5595-4bb3-9e95-064a3e5ec04f" name="ioss0_port4_p4_p41" component="swh">
+      <Location x="65.99999" y="342" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[1], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="342" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_107" zorder="129" guid="de8a6fa2-f51b-4bf6-9cb4-75a9727ef3c6" name="ioss0_port4_p4_p51" component="swh">
+      <Location x="83.99999" y="342" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[1], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="342" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_108" zorder="130" guid="7f71c657-b96e-4d22-8756-6174fe39e8fe" name="ioss0_port4_p4_p40" component="swh">
+      <Location x="65.99999" y="360" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[0], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="65.99999" y="360" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_109" zorder="131" guid="464563c2-659d-4ede-af90-a246f0d618f3" name="ioss0_port4_p4_p50" component="swh">
+      <Location x="83.99999" y="360" />
+      <Size width="12" height="11.99997" />
+      <ShapeTags>wl:ioss[0].port[4].pin[0], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="83.99999" y="360" />
+          <Size width="12" height="11.99997" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_110" zorder="132" guid="3ecfaee2-9dd1-4d83-8d1b-dc113d65d3d2" name="ioss0_port2_p2_p47" component="swh">
+      <Location x="288" y="408" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="408" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_111" zorder="133" guid="92904c5c-63cc-42bc-a1af-b8dc315d14b1" name="ioss0_port2_p2_p57" component="swh">
+      <Location x="270" y="408" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[7]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="408" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_112" zorder="134" guid="036069ab-bad9-4218-998a-076e308a53ce" name="ioss0_port2_p2_p46" component="swh">
+      <Location x="288" y="390" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="390" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_113" zorder="135" guid="898c9e01-f0ec-408d-84b1-66a3ae112954" name="ioss0_port2_p2_p56" component="swh">
+      <Location x="270" y="390" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[6]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="390" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_114" zorder="136" guid="ef3e42dd-5dae-4bc7-9fd4-d8e42c4aa153" name="ioss0_port2_p2_p45" component="swh">
+      <Location x="288" y="372" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="372" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_115" zorder="137" guid="92b0bfe9-3366-4c63-98d0-a6473dcdfcf2" name="ioss0_port2_p2_p55" component="swh">
+      <Location x="270" y="372" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[5]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="372" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_116" zorder="138" guid="685c784d-1efb-429b-9430-9b44b125ecc8" name="ioss0_port2_p2_p44" component="swh">
+      <Location x="288" y="354" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="354" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_117" zorder="139" guid="2ac8a3f0-cfea-4813-b245-f7abe2459aa1" name="ioss0_port2_p2_p54" component="swh">
+      <Location x="270" y="354" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[4]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="354" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_118" zorder="140" guid="40e1acda-2c4c-47f9-963a-11fc64998629" name="ioss0_port2_p2_p43" component="swh">
+      <Location x="288" y="336" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[3]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="336" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_119" zorder="141" guid="2367581f-e121-403c-801f-cd9de3495677" name="ioss0_port2_p2_p53" component="swh">
+      <Location x="270" y="336" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[3]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="336" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_120" zorder="142" guid="5c9c9447-ea19-4ddb-9b95-18cbfba12862" name="ioss0_port2_p2_p42" component="swh">
+      <Location x="288" y="318" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[2]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="318" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_121" zorder="143" guid="e13467a5-5eb1-4303-832f-ba8eab11bcd2" name="ioss0_port2_p2_p52" component="swh">
+      <Location x="270" y="318" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[2]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="318" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_122" zorder="144" guid="e18bc28d-5de6-4d67-aa6b-bde18f0856f6" name="ioss0_port2_p2_p41" component="swh">
+      <Location x="288" y="300" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="300" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_123" zorder="145" guid="d69d2c5a-e479-4dd8-84c9-08ab6fb22633" name="ioss0_port2_p2_p51" component="swh">
+      <Location x="270" y="300" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[1]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="300" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_124" zorder="146" guid="d4da1b72-3231-4a69-900f-9691dee34829" name="ioss0_port2_p2_p40" component="swh">
+      <Location x="288" y="282" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="288" y="282" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_125" zorder="147" guid="db9043fc-8bfe-4629-8141-6b0c9da3c4c2" name="ioss0_port2_p2_p50" component="swh">
+      <Location x="270" y="282" />
+      <Size width="12" height="12" />
+      <ShapeTags>wl:ioss[0].port[2].pin[0]</ShapeTags>
+      <SubShapes>
+        <Ellipse>
+          <Location x="270" y="282" />
+          <Size width="12" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Ellipse>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_207" zorder="148" effectiveName="p3_7" type="Digital">
+      <Point1 x="66" y="114" />
+      <Point2 x="96" y="114" />
+      <ShapeTags>wl:ioss[0].port[3].pin[7]</ShapeTags>
+      <Annotation zorder="149">
+        <Location x="66" y="108" />
+        <Text>p3_7</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_208" zorder="150" effectiveName="p3_6" type="Digital">
+      <Point1 x="66" y="132" />
+      <Point2 x="96" y="132" />
+      <ShapeTags>wl:ioss[0].port[3].pin[6]</ShapeTags>
+      <Annotation zorder="151">
+        <Location x="66" y="126" />
+        <Text>p3_6</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_209" zorder="152" effectiveName="p3_5" type="Digital">
+      <Point1 x="66" y="150" />
+      <Point2 x="96" y="150" />
+      <ShapeTags>wl:ioss[0].port[3].pin[5]</ShapeTags>
+      <Annotation zorder="153">
+        <Location x="66" y="144" />
+        <Text>p3_5</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_210" zorder="154" effectiveName="p3_4" type="Digital">
+      <Point1 x="66" y="168" />
+      <Point2 x="96" y="168" />
+      <ShapeTags>wl:ioss[0].port[3].pin[4]</ShapeTags>
+      <Annotation zorder="155">
+        <Location x="66" y="162" />
+        <Text>p3_4</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_211" zorder="156" effectiveName="p3_3" type="Digital">
+      <Point1 x="66" y="186" />
+      <Point2 x="96" y="186" />
+      <ShapeTags>wl:ioss[0].port[3].pin[3]</ShapeTags>
+      <Annotation zorder="157">
+        <Location x="66" y="180" />
+        <Text>p3_3</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_212" zorder="158" effectiveName="p3_2" type="Digital">
+      <Point1 x="66" y="204" />
+      <Point2 x="96" y="204" />
+      <ShapeTags>wl:ioss[0].port[3].pin[2]</ShapeTags>
+      <Annotation zorder="159">
+        <Location x="66" y="198" />
+        <Text>p3_2</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_213" zorder="160" effectiveName="p3_1" type="Digital">
+      <Point1 x="66" y="222" />
+      <Point2 x="96" y="222" />
+      <ShapeTags>wl:ioss[0].port[3].pin[1]</ShapeTags>
+      <Annotation zorder="161">
+        <Location x="66" y="216" />
+        <Text>p3_1</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_214" zorder="162" effectiveName="p3_0" type="Digital">
+      <Point1 x="66" y="240" />
+      <Point2 x="96" y="240" />
+      <ShapeTags>wl:ioss[0].port[3].pin[0]</ShapeTags>
+      <Annotation zorder="163">
+        <Location x="66" y="234" />
+        <Text>p3_0</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_257" zorder="184" effectiveName="p0_0" type="Analog">
+      <Point1 x="114" y="234" />
+      <Point2 x="180" y="234" />
+      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_259" zorder="190" effectiveName="p0_1" type="Analog">
+      <Point1 x="132" y="216" />
+      <Point2 x="180" y="216" />
+      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_261" zorder="196" effectiveName="p0_2" type="Analog">
+      <Point1 x="150" y="174" />
+      <Point2 x="180" y="174" />
+      <ShapeTags>wl:lpcomp[0].comp[1]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_263" zorder="202" effectiveName="p0_3" type="Analog">
+      <Point1 x="168" y="156" />
+      <Point2 x="180" y="156" />
+      <ShapeTags>wl:lpcomp[0].comp[1]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_265" zorder="208" effectiveName="p0_4" type="Digital">
+      <Point1 x="186" y="66" />
+      <Point2 x="186" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[4]</ShapeTags>
+      <Annotation zorder="209">
+        <Location x="180" y="90" />
+        <Text>p0_4</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_266" zorder="210" effectiveName="p0_5" type="Digital">
+      <Point1 x="204" y="66" />
+      <Point2 x="204" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[5]</ShapeTags>
+      <Annotation zorder="211">
+        <Location x="198" y="90" />
+        <Text>p0_5</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_267" zorder="212" effectiveName="p0_6" type="Digital">
+      <Point1 x="222" y="66" />
+      <Point2 x="222" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[6]</ShapeTags>
+      <Annotation zorder="213">
+        <Location x="216" y="90" />
+        <Text>p0_6</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_268" zorder="214" effectiveName="p0_7" type="Digital">
+      <Point1 x="240" y="66" />
+      <Point2 x="240" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[7]</ShapeTags>
+      <Annotation zorder="215">
+        <Location x="234" y="90" />
+        <Text>p0_7</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_286" zorder="232" effectiveName="p2_7" type="Digital">
+      <Point1 x="270" y="414" />
+      <Point2 x="300" y="414" />
+      <ShapeTags>wl:ioss[0].port[2].pin[7]</ShapeTags>
+      <Annotation zorder="233">
+        <Location x="270" y="420" />
+        <Text>p2_7</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_287" zorder="234" effectiveName="p2_6" type="Digital">
+      <Point1 x="270" y="396" />
+      <Point2 x="300" y="396" />
+      <ShapeTags>wl:ioss[0].port[2].pin[6]</ShapeTags>
+      <Annotation zorder="235">
+        <Location x="270" y="402" />
+        <Text>p2_6</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_288" zorder="236" effectiveName="p2_5" type="Digital">
+      <Point1 x="270" y="378" />
+      <Point2 x="300" y="378" />
+      <ShapeTags>wl:ioss[0].port[2].pin[5]</ShapeTags>
+      <Annotation zorder="237">
+        <Location x="270" y="384" />
+        <Text>p2_5</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_289" zorder="238" effectiveName="p2_4" type="Digital">
+      <Point1 x="270" y="360" />
+      <Point2 x="300" y="360" />
+      <ShapeTags>wl:ioss[0].port[2].pin[4]</ShapeTags>
+      <Annotation zorder="239">
+        <Location x="270" y="366" />
+        <Text>p2_4</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_290" zorder="240" effectiveName="p2_3" type="Digital">
+      <Point1 x="270" y="342" />
+      <Point2 x="300" y="342" />
+      <ShapeTags>wl:ioss[0].port[2].pin[3]</ShapeTags>
+      <Annotation zorder="241">
+        <Location x="270" y="348" />
+        <Text>p2_3</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_291" zorder="242" effectiveName="p2_2" type="Digital">
+      <Point1 x="270" y="324" />
+      <Point2 x="300" y="324" />
+      <ShapeTags>wl:ioss[0].port[2].pin[2]</ShapeTags>
+      <Annotation zorder="243">
+        <Location x="270" y="330" />
+        <Text>p2_2</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_292" zorder="244" effectiveName="p2_1" type="Digital">
+      <Point1 x="270" y="306" />
+      <Point2 x="300" y="306" />
+      <ShapeTags>wl:ioss[0].port[2].pin[1]</ShapeTags>
+      <Annotation zorder="245">
+        <Location x="270" y="312" />
+        <Text>p2_1</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_293" zorder="246" effectiveName="p2_0" type="Digital">
+      <Point1 x="270" y="288" />
+      <Point2 x="300" y="288" />
+      <ShapeTags>wl:ioss[0].port[2].pin[0]</ShapeTags>
+      <Annotation zorder="247">
+        <Location x="270" y="294" />
+        <Text>p2_0</Text>
+        <Vertical value="false" />
+        <TextAlignment value="BottomLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_299" zorder="258" effectiveName="amuxbus_b" type="Digital">
+      <Point1 x="90" y="90" />
+      <Point2 x="276" y="90" />
+    </Wire>
+    <Instance shapeName="Shape_441" zorder="262" guid="0391b94f-261d-4340-9450-0c2076b136fd" name="cy_shapetag_disconnect_1" component="cy_all_shapetag_disconnect">
+      <Location x="93" y="327" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[4].pin[2], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_1.a" type="Instance Analog InOut">
+          <Location x="96" y="330" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_444" zorder="263" guid="2e8681a7-85a4-44ba-a5a1-72a013056531" name="cy_shapetag_disconnect_2" component="cy_all_shapetag_disconnect">
+      <Location x="93" y="309" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_2.a" type="Instance Analog InOut">
+          <Location x="96" y="312" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_447" zorder="261" guid="42ee8e18-0201-41c9-b8b4-002aad6390ab" name="cy_shapetag_disconnect_3" component="cy_all_shapetag_disconnect">
+      <Location x="93" y="345" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[4].pin[1], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_3.a" type="Instance Analog InOut">
+          <Location x="96" y="348" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_450" zorder="260" guid="3734a7c9-6df8-42c2-b139-09f9b6b5c35b" name="cy_shapetag_disconnect_4" component="cy_all_shapetag_disconnect">
+      <Location x="93" y="363" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[4].pin[0], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_4.a" type="Instance Analog InOut">
+          <Location x="96" y="366" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_453" zorder="182" effectiveName="p4_0" type="Analog">
+      <Point1 x="66" y="366" />
+      <Point2 x="96" y="366" />
+      <ShapeTags>wl:ioss[0].port[4].pin[0], wl:csd[0].csd[0]</ShapeTags>
+      <Annotation zorder="183">
+        <Location x="66" y="360" />
+        <Text>p4_0</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_454" zorder="180" effectiveName="p4_0" type="Analog">
+      <Point1 x="96" y="366" solderDot="true" />
+      <Point2 x="180" y="366" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_455" zorder="178" effectiveName="p4_1" type="Analog">
+      <Point1 x="66" y="348" />
+      <Point2 x="96" y="348" />
+      <ShapeTags>wl:ioss[0].port[4].pin[1], wl:csd[0].csd[0]</ShapeTags>
+      <Annotation zorder="179">
+        <Location x="66" y="342" />
+        <Text>p4_1</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_456" zorder="176" effectiveName="p4_1" type="Analog">
+      <Point1 x="96" y="348" solderDot="true" />
+      <Point2 x="180" y="348" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_457" zorder="174" effectiveName="p4_2" type="Analog">
+      <Point1 x="66" y="330" />
+      <Point2 x="96" y="330" />
+      <ShapeTags>wl:ioss[0].port[4].pin[2], wl:csd[0].csd[0]</ShapeTags>
+      <Annotation zorder="175">
+        <Location x="66" y="324" />
+        <Text>p4_2</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_458" zorder="172" effectiveName="p4_2" type="Analog">
+      <Point1 x="96" y="330" solderDot="true" />
+      <Point2 x="180" y="330" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_459" zorder="170" effectiveName="p4_3" type="Analog">
+      <Point1 x="66" y="312" />
+      <Point2 x="96" y="312" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:csd[0].csd[0]</ShapeTags>
+      <Annotation zorder="171">
+        <Location x="66" y="306" />
+        <Text>p4_3</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_460" zorder="168" effectiveName="p4_3" type="Analog">
+      <Point1 x="96" y="312" solderDot="true" />
+      <Point2 x="180" y="312" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_463" zorder="166" effectiveName="amuxbus_b" type="Analog">
+      <Point1 x="90" y="294" solderDot="true" />
+      <Point2 x="180" y="294" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_464" zorder="264" guid="e25af287-25c5-43e4-a85d-de097d92bcb6" name="cy_shapetag_disconnect_6" component="cy_all_shapetag_disconnect">
+      <Location x="165" y="93" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[0].pin[3], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_6.a" type="Instance Analog InOut">
+          <Location x="168" y="96" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_466" zorder="206" effectiveName="p0_3" type="Analog">
+      <Point1 x="168" y="96" solderDot="true" />
+      <Point2 x="168" y="156" />
+      <ShapeTags>wl:lpcomp[0].comp[1]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_467" zorder="265" guid="97dce11c-1600-477e-a85b-35105954cb50" name="cy_shapetag_disconnect_7" component="cy_all_shapetag_disconnect">
+      <Location x="147" y="93" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[0].pin[2], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_7.a" type="Instance Analog InOut">
+          <Location x="150" y="96" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_469" zorder="200" effectiveName="p0_2" type="Analog">
+      <Point1 x="150" y="96" solderDot="true" />
+      <Point2 x="150" y="174" />
+      <ShapeTags>wl:lpcomp[0].comp[1]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_470" zorder="266" guid="1136e348-7d4c-409a-b28a-a30ac591e88b" name="cy_shapetag_disconnect_8" component="cy_all_shapetag_disconnect">
+      <Location x="129" y="93" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[0].pin[1], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_8.a" type="Instance Analog InOut">
+          <Location x="132" y="96" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_472" zorder="194" effectiveName="p0_1" type="Analog">
+      <Point1 x="132" y="96" solderDot="true" />
+      <Point2 x="132" y="216" />
+      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_473" zorder="267" guid="58c4b5b3-7be2-4217-bf40-0e63f06fd240" name="cy_shapetag_disconnect_9" component="cy_all_shapetag_disconnect">
+      <Location x="111" y="93" />
+      <Size width="9" height="6" />
+      <ShapeTags>wl:ioss[0].port[0].pin[0], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="cy_shapetag_disconnect_9.a" type="Instance Analog InOut">
+          <Location x="114" y="96" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_475" zorder="188" effectiveName="p0_0" type="Analog">
+      <Point1 x="114" y="96" solderDot="true" />
+      <Point2 x="114" y="234" />
+      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_492" zorder="218" effectiveName="p1_1" type="Analog">
+      <Point1 x="270" y="132" />
+      <Point2 x="300" y="132" />
+      <ShapeTags>wl:ioss[0].port[1].pin[1]</ShapeTags>
+      <Annotation zorder="219">
+        <Location x="276" y="126" />
+        <Text>p1_1</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_495" zorder="216" effectiveName="p1_0" type="Analog">
+      <Point1 x="270" y="114" />
+      <Point2 x="300" y="114" />
+      <ShapeTags>wl:ioss[0].port[1].pin[0]</ShapeTags>
+      <Annotation zorder="217">
+        <Location x="276" y="108" />
+        <Text>p1_0</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_519" zorder="228" effectiveName="p1_6" type="Analog">
+      <Point1 x="270" y="222" />
+      <Point2 x="300" y="222" />
+      <ShapeTags>wl:ioss[0].port[1].pin[6]</ShapeTags>
+      <Annotation zorder="229">
+        <Location x="276" y="216" />
+        <Text>p1_6</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_522" zorder="226" effectiveName="p1_5" type="Analog">
+      <Point1 x="270" y="204" />
+      <Point2 x="300" y="204" />
+      <ShapeTags>wl:ioss[0].port[1].pin[5]</ShapeTags>
+      <Annotation zorder="227">
+        <Location x="276" y="198" />
+        <Text>p1_5</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_525" zorder="224" effectiveName="p1_4" type="Analog">
+      <Point1 x="270" y="186" />
+      <Point2 x="300" y="186" />
+      <ShapeTags>wl:ioss[0].port[1].pin[4]</ShapeTags>
+      <Annotation zorder="225">
+        <Location x="276" y="180" />
+        <Text>p1_4</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_542" zorder="186" effectiveName="p0_0" type="Analog">
+      <Point1 x="114" y="66" />
+      <Point2 x="114" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[0], wl:lpcomp[0].comp[0]</ShapeTags>
+      <Annotation zorder="187">
+        <Location x="108" y="90" />
+        <Text>p0_0</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_545" zorder="192" effectiveName="p0_1" type="Analog">
+      <Point1 x="132" y="66" />
+      <Point2 x="132" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[1], wl:lpcomp[0].comp[0]</ShapeTags>
+      <Annotation zorder="193">
+        <Location x="126" y="90" />
+        <Text>p0_1</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_548" zorder="198" effectiveName="p0_2" type="Analog">
+      <Point1 x="150" y="66" />
+      <Point2 x="150" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[2], wl:lpcomp[0].comp[1]</ShapeTags>
+      <Annotation zorder="199">
+        <Location x="144" y="90" />
+        <Text>p0_2</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_551" zorder="204" effectiveName="p0_3" type="Analog">
+      <Point1 x="168" y="66" />
+      <Point2 x="168" y="96" />
+      <ShapeTags>wl:ioss[0].port[0].pin[3], wl:lpcomp[0].comp[1]</ShapeTags>
+      <Annotation zorder="205">
+        <Location x="162" y="90" />
+        <Text>p0_3</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_567" zorder="230" effectiveName="p1_7" type="Analog">
+      <Point1 x="270" y="240" />
+      <Point2 x="300" y="240" />
+      <ShapeTags>wl:ioss[0].port[1].pin[7]</ShapeTags>
+      <Annotation zorder="231">
+        <Location x="276" y="234" />
+        <Text>p1_7</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_568" zorder="222" effectiveName="p1_3" type="Analog">
+      <Point1 x="270" y="168" />
+      <Point2 x="300" y="168" />
+      <ShapeTags>wl:ioss[0].port[1].pin[3]</ShapeTags>
+      <Annotation zorder="223">
+        <Location x="276" y="162" />
+        <Text>p1_3</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_569" zorder="220" effectiveName="p1_2" type="Analog">
+      <Point1 x="270" y="150" />
+      <Point2 x="300" y="150" />
+      <ShapeTags>wl:ioss[0].port[1].pin[2]</ShapeTags>
+      <Annotation zorder="221">
+        <Location x="276" y="144" />
+        <Text>p1_2</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_572" zorder="268" effectiveName="amuxbus_b" type="Digital">
+      <Point1 x="276" y="90" />
+      <Point2 x="276" y="420" />
+    </Wire>
+    <Wire shapeName="Shape_575" zorder="252" effectiveName="amuxbus_a" type="Digital">
+      <Point1 x="72" y="72" />
+      <Point2 x="294" y="72" />
+    </Wire>
+    <Wire shapeName="Shape_581" zorder="270" effectiveName="amuxbus_a" type="Digital">
+      <Point1 x="294" y="72" />
+      <Point2 x="294" y="420" />
+    </Wire>
+    <Instance shapeName="Shape_587" zorder="28" guid="ee07ad62-1d42-46cf-bbc1-58f8d5411c85" name="MUX_BKG_1" component="cy_all_mux_bkg">
+      <Location x="267" y="281" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="281" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_589" zorder="29" guid="76ffadeb-4731-4bc5-b6ab-3887830aae3e" name="MUX_BKG_2" component="cy_all_mux_bkg">
+      <Location x="267" y="299" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[1]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="299" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_590" zorder="30" guid="c3e92c32-ee96-4c01-86d6-006ee1b44fea" name="MUX_BKG_3" component="cy_all_mux_bkg">
+      <Location x="267" y="317" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[2]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="317" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_591" zorder="31" guid="7e19cccb-a6ac-4832-9edb-c2e298e1bb2b" name="MUX_BKG_4" component="cy_all_mux_bkg">
+      <Location x="267" y="335" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[3]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="335" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_592" zorder="32" guid="e2b94196-762c-4f61-a67c-5b76114afcf8" name="MUX_BKG_5" component="cy_all_mux_bkg">
+      <Location x="267" y="353" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[4]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="353" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_593" zorder="33" guid="c03ee7c1-df3b-43ff-a013-fa645aba8ce2" name="MUX_BKG_6" component="cy_all_mux_bkg">
+      <Location x="267" y="371" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[5]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="371" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_594" zorder="34" guid="aef74d5a-5ded-4185-9cd1-01ca806c08f9" name="MUX_BKG_7" component="cy_all_mux_bkg">
+      <Location x="267" y="389" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[6]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="389" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_595" zorder="35" guid="abd4f18a-cc5f-4d97-a63a-c9374db496a6" name="MUX_BKG_8" component="cy_all_mux_bkg">
+      <Location x="267" y="407" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[2].pin[7]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="407" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_596" zorder="20" guid="eb5cfadc-cdd6-4813-98fe-f6bf31cd11b5" name="MUX_BKG_9" component="cy_all_mux_bkg">
+      <Location x="267" y="233" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[7]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="233" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_597" zorder="21" guid="f4b47f2f-4890-4cf4-ac4a-fa40f692625f" name="MUX_BKG_10" component="cy_all_mux_bkg">
+      <Location x="267" y="215" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[6]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="215" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_598" zorder="22" guid="3c5e422e-1cd8-4994-9404-93442e1c8690" name="MUX_BKG_11" component="cy_all_mux_bkg">
+      <Location x="267" y="197" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[5]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="197" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_599" zorder="23" guid="1172e54f-3b50-4bc7-8e04-7be7e5b567fd" name="MUX_BKG_12" component="cy_all_mux_bkg">
+      <Location x="267" y="179" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[4]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="179" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_600" zorder="24" guid="258536b1-a245-43b6-9ae1-02dbab7cfaa2" name="MUX_BKG_13" component="cy_all_mux_bkg">
+      <Location x="267" y="161" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[3]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="161" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_601" zorder="25" guid="2376be67-052a-45bb-8c46-32d891f0e5c9" name="MUX_BKG_14" component="cy_all_mux_bkg">
+      <Location x="267" y="143" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[2]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="143" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_602" zorder="26" guid="05ada3e8-70fd-448d-9460-1fb589cea44f" name="MUX_BKG_15" component="cy_all_mux_bkg">
+      <Location x="267" y="125" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[1]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="125" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_603" zorder="27" guid="3c864821-ccb4-4c5a-8b52-5009ce84c228" name="MUX_BKG_16" component="cy_all_mux_bkg">
+      <Location x="267" y="107" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[1].pin[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="267" y="107" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_604" zorder="12" guid="90e9d3ef-3b58-43a0-96fc-800410e36a57" name="MUX_BKG_17" component="cy_all_mux_bkg">
+      <Location x="107" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[0], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="107" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_605" zorder="13" guid="160db5bb-86b2-4262-9c02-ccf72342bcd2" name="MUX_BKG_18" component="cy_all_mux_bkg">
+      <Location x="125" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[1], wl:lpcomp[0].comp[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="125" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_606" zorder="14" guid="5e2013e5-95a7-4f6e-9caa-2005434e0a0a" name="MUX_BKG_19" component="cy_all_mux_bkg">
+      <Location x="143" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[2], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="143" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_607" zorder="15" guid="5eda9618-e6d5-470d-8e6f-002e6b6fb984" name="MUX_BKG_20" component="cy_all_mux_bkg">
+      <Location x="161" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[3], wl:lpcomp[0].comp[1]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="161" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_608" zorder="16" guid="d58587e8-4e74-47d8-b448-698d42716201" name="MUX_BKG_21" component="cy_all_mux_bkg">
+      <Location x="179" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[4]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="179" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_609" zorder="17" guid="65fd6013-7a0b-4d7a-870e-4a9c247c8b5d" name="MUX_BKG_22" component="cy_all_mux_bkg">
+      <Location x="197" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[5]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="197" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_610" zorder="18" guid="d0497261-6f8e-43c8-b2b2-d77fa4b19bdd" name="MUX_BKG_23" component="cy_all_mux_bkg">
+      <Location x="215" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[6]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="215" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_611" zorder="19" guid="478bfc4a-6c2c-4f60-b5aa-40eb7588391a" name="MUX_BKG_24" component="cy_all_mux_bkg">
+      <Location x="233" y="63" />
+      <Size width="14" height="36" />
+      <ShapeTags>wl:ioss[0].port[0].pin[7]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="233" y="63" />
+          <Size width="14" height="36" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_612" zorder="4" guid="0c2ecb53-7d5f-43cd-9039-e34a06fd312d" name="MUX_BKG_25" component="cy_all_mux_bkg">
+      <Location x="63" y="233" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="233" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_613" zorder="5" guid="1cbfd3a0-51fd-4ac2-ad00-0255d4f2cd18" name="MUX_BKG_26" component="cy_all_mux_bkg">
+      <Location x="63" y="215" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[1]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="215" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_614" zorder="6" guid="38bdf738-7125-4977-9375-477047198426" name="MUX_BKG_27" component="cy_all_mux_bkg">
+      <Location x="63" y="197" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[2]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="197" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_616" zorder="7" guid="76b663b1-5729-4d9a-8fa0-234b0be40487" name="MUX_BKG_28" component="cy_all_mux_bkg">
+      <Location x="63" y="179" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[3]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="179" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_617" zorder="8" guid="049f1a93-ae76-4e9a-bd76-cff6ab360626" name="MUX_BKG_29" component="cy_all_mux_bkg">
+      <Location x="63" y="161" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[4]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="161" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_618" zorder="9" guid="e908293f-c119-4a4b-a265-7613de0d5716" name="MUX_BKG_30" component="cy_all_mux_bkg">
+      <Location x="63" y="143" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[5]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="143" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_619" zorder="10" guid="bdbf017d-ef8f-423a-a6e0-81f8aabd65c1" name="MUX_BKG_31" component="cy_all_mux_bkg">
+      <Location x="63" y="125" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[6]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="125" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_620" zorder="11" guid="2e7f1efc-fc9e-40d2-b247-b26b021e80f1" name="MUX_BKG_32" component="cy_all_mux_bkg">
+      <Location x="63" y="107" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[3].pin[7]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="107" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_621" zorder="0" guid="71c91048-3a6c-455c-a6a9-17c629fdb9d8" name="MUX_BKG_33" component="cy_all_mux_bkg">
+      <Location x="63" y="359" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[4].pin[0], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="359" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_622" zorder="1" guid="8815b972-b57a-4a22-a8a9-21e503a8d952" name="MUX_BKG_34" component="cy_all_mux_bkg">
+      <Location x="63" y="341" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[4].pin[1], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="341" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_623" zorder="2" guid="aa6e06a2-0e44-4e9c-8974-1ad0fe3fe166" name="MUX_BKG_35" component="cy_all_mux_bkg">
+      <Location x="63" y="323" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[4].pin[2], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="323" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_624" zorder="3" guid="016b4028-60d8-4cb4-b6ae-30850d1deda9" name="MUX_BKG_36" component="cy_all_mux_bkg">
+      <Location x="63" y="305" />
+      <Size width="36" height="14" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:csd[0].csd[0]</ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="63" y="305" />
+          <Size width="36" height="14" />
+          <Outline dashStyle="Dash" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <HatchBrush backColor="255, 255, 255" foreColor="192, 192, 192" style="Percent25" />
+          </Fill>
+        </Rectangle>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_634" zorder="164" effectiveName="amuxbus_a" type="Digital">
+      <Point1 x="72" y="276" solderDot="true" />
+      <Point2 x="180" y="276" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_635" zorder="250" effectiveName="amuxbus_a" type="Digital">
+      <Point1 x="72" y="72" />
+      <Point2 x="72" y="276" solderDot="true" />
+      <Annotation zorder="251">
+        <Location x="66" y="276" />
+        <Text>amuxbus_a</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_636" zorder="248" effectiveName="amuxbus_a" type="Digital">
+      <Point1 x="72" y="276" solderDot="true" />
+      <Point2 x="72" y="372" />
+    </Wire>
+    <Wire shapeName="Shape_637" zorder="256" effectiveName="amuxbus_b" type="Digital">
+      <Point1 x="90" y="90" />
+      <Point2 x="90" y="294" solderDot="true" />
+      <Annotation zorder="257">
+        <Location x="84" y="276" />
+        <Text>amuxbus_b</Text>
+        <Vertical value="true" />
+        <TextAlignment value="TopRight" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_638" zorder="254" effectiveName="amuxbus_b" type="Digital">
+      <Point1 x="90" y="294" solderDot="true" />
+      <Point2 x="90" y="372" />
+    </Wire>
+  </Page>
+</Document>

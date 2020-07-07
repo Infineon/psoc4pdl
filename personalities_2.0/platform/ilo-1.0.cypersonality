@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file ilo.cypersonality
+* \version 1.0
+*
+* \brief
+* ILO personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="m0s8ilo" name="ILO" version="1.0" path="Clocks/Slow" xmlns="http://cypress.com/xsd/cyhwpersonality_v1">
+  <Dependencies>
+    <IpBlock name="s8srsslt" />
+    <Resource name="srss\.clock\.ilo" used="true" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="frequency" paramId="frequency" />
+    <ExposedMember key="accuracy"  paramId="accuracy" />
+    <ExposedMember key="error"     paramId="error" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- PDL documentation -->
+    <ParamDoc id="pdlDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/pdl_api_reference_manual/html/group__group__sysclk.html" linkText="Open SysClk Documentation" visible="true" desc="Opens the Peripheral Driver Library Documentation" />
+
+    <ParamRange id="frequency" name="Frequency (MHz)" group="Internal" default="40000" min="20000" max="80000" resolution="1" visible="false" editable="false" desc="The nominal output frequency" />
+    <ParamRange id="accuracy" name="Accuracy (&#177;%)" group="Internal" default="50" min="50" max="100" resolution="1" visible="false" editable="false" desc="Clock accuracy in %" />
+    <ParamBool id="error" name="Clock Error" group="Internal" default="false" visible="false" editable="false" desc="" />
+
+    <ParamString id="frequencyInfo" name="Frequency" group="General" default="`${formatFrequency(frequency, accuracy)}`" visible="true" editable="false" desc="The nominal output frequency" />
+    
+  </Parameters>
+  <DRCs>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigDefine name="CY_CFG_SYSCLK_ILO_ENABLED" value="1" public="false" include="true" />
+    <ConfigFunction signature="__STATIC_INLINE void Cy_SysClk_IloInit()" body="    Cy_SysClk_IloEnable();" public="false" include="true" />
+  </ConfigFirmware>
+</Personality>

@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.3" xmlns="http://cypress.com/xsd/cysem">
+  <Instances count="17">
+    <Instance guid="09373d34-20d2-4303-a52b-d96300ec4539" name="IMO" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>IMO</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>IMO</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>IMO</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Internal Main Oscillator: The IMO is the primary source of internal clocking. It is trimmed during testing to achieve the specified accuracy.The IMO default frequency is 24 MHz and it can be adjusted from 24 to 48 MHz in steps of 4 MHz. The IMO tolerance with Cypress-provided calibration settings is ±2%.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0e99d209-20fa-443b-a72a-27394adbbc79" name="ILO" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>ILO</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ILO</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>ILO</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Internal Low Speed Oscillator: The ILO is a very low power, nominally 40-kHz oscillator, which is primarily used to generate clocks for the watchdog timer (WDT) and peripheral operation in Deep Sleep mode. ILO-driven counters can be calibrated to the IMO to improve accuracy.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1f58e231-8d24-4b55-83e0-bf6c5dbe639d" name="SYSCLK" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>SysClk</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>SYSCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>SYSCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>System Clock: A high-frequency clock output driving specific peripherals.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="223402ba-e913-40ed-b383-b7764ec49905" name="ECO_1" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>ECO</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ECO_1</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>ECO</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>External Crystal Oscillator: This is an off-chip clock source that is used when specific frequencies  (4 to 33 MHz) and/or very high accuracy is required. </Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="378cd5c3-d1cd-43c6-bd19-2ed89dfa9e7b" name="PLL" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PLL</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PLL</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>PLL</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Phase-Locked Loop: A high-frequency clock able to generate a wide range of clock frequencies making it suitable for most on-chip purposes. This clock is stopped in the deep sleep and hibernate power modes.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3dd53e37-e08f-47a2-9422-fff6618f21f0" name="mux_3" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_3</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value />
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="5b096a3e-cdaf-44de-978b-05d85ad23228" name="WCO_2" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>WCO</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>WCO_2</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>WCO</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Watch Crystal Oscillator: A low-frequency (32-kHz watch crystal) oscillator that can be used for precision timing applications. </Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="617e9552-644b-49c0-944d-007ba3c4f5c0" name="CLK_ALT_SYS_TICK_1" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AltSysTickClk</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CLK_ALT_SYS_TICK_1</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>SYSTICK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>SYSTICK: Provides an optional external source for the CM4/CM0+ SysTick timers.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="6e9487ee-9e65-4558-9fb7-126fb35dcd0e" name="mux_1" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_1</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value />
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a2592e62-0a85-4880-9091-69d2a316170b" name="mux_4" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_4</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value />
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a6d20d3e-411a-4a6f-a79b-71911287a237" name="LFCLK" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>LfClk</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>LFCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>LFCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Low Frequency Clock: This clock is the source for the multi-counter watchdog timers (MCWDT), and can also be a source for the RTC.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="b1019878-cbc4-4ca5-9df2-4fee320fa13c" name="PUMPCLK" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PumpClk</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PUMPCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>PUMPCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Analog Pump Clock: This clock ensures precision analog performance in low voltage applications.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="bf0d96fc-8e58-4150-9255-a0d278aea00d" name="mux" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value />
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d4804264-56ed-4c5f-85dc-58f119f3ce2a" name="EXTCLK" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>EXTCLK</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>EXTCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>EXTCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>External Clock: This is an off-chip clock (not an oscillator). This clock is stopped in the deep sleep and hibernate power modes.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e7bb5278-6591-498b-be2e-c8ab5bd0471d" name="PLL_SEL" component="mux_2">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PllSel</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PLL_SEL</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>PLL_SEL</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ed430eaa-9543-4b06-83b3-be75bac9b7e1" name="HFCLK" component="clock_side">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>HfClk</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>HFCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>HFCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>High Frequency Clock: A high-frequency clock output driving specific peripherals.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="fe836f86-f10a-4b55-a7de-e451ea459001" name="mux_2" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_2</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value />
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+  </Instances>
+  <Signals count="158">
+    <Signal name="Net_52" type="Digital" terminalCount="2">
+      <Terminal name="EXTCLK.a_14" type="Instance Digital Output" />
+      <Terminal name="mux.b_3" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_65" type="Digital" terminalCount="2">
+      <Terminal name="PLL_SEL.a_8" type="Instance Digital Output" />
+      <Terminal name="PLL.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_130" type="Digital" terminalCount="2">
+      <Terminal name="PLL.a_14" type="Instance Digital Output" />
+      <Terminal name="mux_2.b_4" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_193" type="Digital" terminalCount="2">
+      <Terminal name="WCO_2.a_14" type="Instance Digital Output" />
+      <Terminal name="mux_1.b_1" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_252" type="Digital" terminalCount="1">
+      <Terminal name="mux_1.a_0" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_307" type="Digital" terminalCount="3">
+      <Terminal name="ECO_1.a_14" type="Instance Digital Output" />
+      <Terminal name="mux_2.b_3" type="Instance Digital Input" />
+      <Terminal name="PLL_SEL.b_21" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_308" type="Digital" terminalCount="2">
+      <Terminal name="mux.a_0" type="Instance Digital Output" />
+      <Terminal name="HFCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_356" type="Digital" terminalCount="4">
+      <Terminal name="IMO.a_14" type="Instance Digital Output" />
+      <Terminal name="mux_4.b_2" type="Instance Digital Input" />
+      <Terminal name="mux.b_4" type="Instance Digital Input" />
+      <Terminal name="PLL_SEL.b_23" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_545" type="Digital" terminalCount="2">
+      <Terminal name="mux_2.a_0" type="Instance Digital Output" />
+      <Terminal name="mux.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_605" type="Digital" terminalCount="3">
+      <Terminal name="HFCLK.a_14" type="Instance Digital Output" />
+      <Terminal name="mux_4.b_1" type="Instance Digital Input" />
+      <Terminal name="SYSCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_667" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_668" type="Digital" terminalCount="2">
+      <Terminal name="LFCLK.a_3" type="Instance Digital Output" />
+      <Terminal name="mux_3.b_1" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_710" type="Digital" terminalCount="3">
+      <Terminal name="ILO.a_14" type="Instance Digital Output" />
+      <Terminal name="mux_1.b_2" type="Instance Digital Input" />
+      <Terminal name="LFCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_714" type="Digital" terminalCount="2">
+      <Terminal name="mux_4.a_0" type="Instance Digital Output" />
+      <Terminal name="PUMPCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_755" type="Digital" terminalCount="2">
+      <Terminal name="mux_3.a_0" type="Instance Digital Output" />
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_774" type="Digital" terminalCount="2">
+      <Terminal name="SYSCLK.a_14" type="Instance Digital Output" />
+      <Terminal name="mux_3.b_2" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1459" type="Digital" terminalCount="1">
+      <Terminal name="IMO.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1460" type="Digital" terminalCount="1">
+      <Terminal name="IMO.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1461" type="Digital" terminalCount="1">
+      <Terminal name="IMO.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1462" type="Digital" terminalCount="1">
+      <Terminal name="IMO.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1463" type="Digital" terminalCount="1">
+      <Terminal name="IMO.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1464" type="Digital" terminalCount="1">
+      <Terminal name="IMO.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1465" type="Digital" terminalCount="1">
+      <Terminal name="IMO.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1466" type="Digital" terminalCount="1">
+      <Terminal name="IMO.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1467" type="Digital" terminalCount="1">
+      <Terminal name="IMO.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1468" type="Digital" terminalCount="1">
+      <Terminal name="IMO.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1469" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1470" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1471" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1472" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1473" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1474" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1475" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1476" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1477" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1478" type="Digital" terminalCount="1">
+      <Terminal name="ECO_1.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1479" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1480" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1481" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1482" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1483" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1484" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1485" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1486" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1487" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1488" type="Digital" terminalCount="1">
+      <Terminal name="EXTCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1489" type="Digital" terminalCount="1">
+      <Terminal name="ILO.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1490" type="Digital" terminalCount="1">
+      <Terminal name="ILO.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1491" type="Digital" terminalCount="1">
+      <Terminal name="ILO.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1492" type="Digital" terminalCount="1">
+      <Terminal name="ILO.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1493" type="Digital" terminalCount="1">
+      <Terminal name="ILO.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1494" type="Digital" terminalCount="1">
+      <Terminal name="ILO.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1495" type="Digital" terminalCount="1">
+      <Terminal name="ILO.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1496" type="Digital" terminalCount="1">
+      <Terminal name="ILO.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1497" type="Digital" terminalCount="1">
+      <Terminal name="ILO.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1498" type="Digital" terminalCount="1">
+      <Terminal name="ILO.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1499" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1500" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1501" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1502" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1503" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1504" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1505" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1506" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1507" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1508" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1509" type="Digital" terminalCount="1">
+      <Terminal name="mux_1.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1510" type="Digital" terminalCount="1">
+      <Terminal name="mux_1.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1511" type="Digital" terminalCount="1">
+      <Terminal name="mux_1.b_3" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1512" type="Digital" terminalCount="1">
+      <Terminal name="mux_1.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1513" type="Digital" terminalCount="1">
+      <Terminal name="mux_1.b_4" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1514" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1515" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1516" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1517" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1518" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1519" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1520" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1521" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1522" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1523" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1524" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1525" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.b_22" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1526" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.b_24" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1527" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.b_25" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1528" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.b_26" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1529" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.a_7" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1530" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.a_9" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1531" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.a_17" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1532" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.a_18" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1533" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.a_19" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1534" type="Digital" terminalCount="1">
+      <Terminal name="PLL_SEL.a_20" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1535" type="Digital" terminalCount="1">
+      <Terminal name="PLL.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1536" type="Digital" terminalCount="1">
+      <Terminal name="PLL.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1537" type="Digital" terminalCount="1">
+      <Terminal name="PLL.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1538" type="Digital" terminalCount="1">
+      <Terminal name="PLL.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1539" type="Digital" terminalCount="1">
+      <Terminal name="PLL.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1540" type="Digital" terminalCount="1">
+      <Terminal name="PLL.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1541" type="Digital" terminalCount="1">
+      <Terminal name="PLL.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1542" type="Digital" terminalCount="1">
+      <Terminal name="PLL.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1543" type="Digital" terminalCount="1">
+      <Terminal name="PLL.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1544" type="Digital" terminalCount="1">
+      <Terminal name="mux_2.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1545" type="Digital" terminalCount="1">
+      <Terminal name="mux_2.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1546" type="Digital" terminalCount="1">
+      <Terminal name="mux_2.b_1" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1547" type="Digital" terminalCount="1">
+      <Terminal name="mux_2.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1548" type="Digital" terminalCount="1">
+      <Terminal name="mux_2.b_2" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1549" type="Digital" terminalCount="1">
+      <Terminal name="mux.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1550" type="Digital" terminalCount="1">
+      <Terminal name="mux.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1551" type="Digital" terminalCount="1">
+      <Terminal name="mux.b_1" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1552" type="Digital" terminalCount="1">
+      <Terminal name="mux.b_2" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1553" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1554" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1555" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1556" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1557" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1558" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1559" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1560" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1561" type="Digital" terminalCount="1">
+      <Terminal name="HFCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1562" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1563" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1564" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1565" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1566" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1567" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1568" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1569" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1570" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1571" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1572" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1573" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1574" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1575" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1576" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1577" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1578" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1579" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1580" type="Digital" terminalCount="1">
+      <Terminal name="PUMPCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1581" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1582" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1583" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.b_3" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1584" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1585" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.b_4" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1586" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1587" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1588" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1589" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1590" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1591" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1592" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1593" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1594" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1595" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1596" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1597" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1598" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.b_3" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1599" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1600" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.b_4" type="Instance Digital Input" />
+    </Signal>
+  </Signals>
+  <Properties>
+    <Property name="CanvasBackColor">255, 255, 255</Property>
+    <Property name="Doc.CompanyAddr1" />
+    <Property name="Doc.CompanyAddr2" />
+    <Property name="Doc.CompanyAddr3" />
+    <Property name="Doc.CompanyName" />
+    <Property name="Doc.SchematicTitle" />
+    <Property name="MajorGridColor">169, 169, 169</Property>
+    <Property name="MinorGridColor">100, 169, 169, 169</Property>
+    <Property name="OnlyShowSolderDotsOnWires">False</Property>
+    <Property name="OwnerLineColor">128, 128, 128</Property>
+    <Property name="ShowGrid">True</Property>
+    <Property name="ShowGridAsLines">False</Property>
+    <Property name="TerminalConnectColor">128, 128, 128</Property>
+    <Property name="TerminalFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireBusSize">2</Property>
+    <Property name="WireDotSize">5</Property>
+    <Property name="WireFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireFontColor">0, 0, 0</Property>
+    <Property name="WireSize">0.25</Property>
+  </Properties>
+</Document>

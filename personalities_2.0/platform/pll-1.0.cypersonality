@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file pll.cypersonality
+* \version 1.0
+*
+* \brief
+* PLL personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="m0s8pll" name="PLL" version="1.0" path="Clocks/Fast" xmlns="http://cypress.com/xsd/cyhwpersonality_v1">
+  <Dependencies>
+    <IpBlock name="m0s8exco,m0s8exco_ver2" />
+    <Resource name="exco\.pll" used="true" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="frequency" paramId="frequency" />
+    <ExposedMember key="accuracy"  paramId="accuracy" />
+    <ExposedMember key="error"     paramId="error" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- PDL documentation -->
+    <ParamDoc id="pdlDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/pdl_api_reference_manual/html/group__group__sysclk.html" linkText="Open System Clock Documentation" visible="true" desc="Opens the Peripheral Driver Library Documentation" />
+
+    <ParamRange id="clockInst" name="PLL Instance" group="Interal" default="`${getInstNumber(&quot;pll&quot;)}`" min="0" max="1" resolution="1" visible="false" editable="false" desc="" /> 
+    <ParamString id="sourceClockRsc" name="Source Clock" group="Internal" default="exco[0].pll_sel[`${clockInst}`]" visible="false" editable="false" desc="" />
+
+    <!-- Set an error if the source clock is not enabled or contains an error -->
+    <ParamBool id="srcNotUsed" name="Clock Source Enabled" group="Internal" default="`${!isBlockUsed(sourceClockRsc)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="error" name="Clock Error" group="Internal" default="`${srcNotUsed || getExposedMember(sourceClockRsc, &quot;error&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamRange id="sourceFreq" name="sourceFreq" group="Internal" default="`${!error ? getExposedMember(sourceClockRsc, &quot;frequency&quot;) : 0}`" min="0" max="48000000" resolution="1" visible="false" editable="false" desc="" />
+    <ParamString id="accuracy" name="accuracy" group="Internal" default="`${!error ? getExposedMember(sourceClockRsc, &quot;accuracy&quot;) : 0}`" visible="false" editable="false" desc="" />
+    <ParamString id="sourceFrequencyInfo" name="Source Frequency" group="General" default="`${formatFrequency(sourceFreq,accuracy)}`" visible="true" editable="false" desc="Source clock frequency" />
+    <ParamString id="maxFrequency" name="maxFrequency" group="Internal" default="`${getDeviceAttr(&quot;CPU_MAX_MHZ&quot;) &gt; 104 ? 104 : getDeviceAttr(&quot;CPU_MAX_MHZ&quot;)}`" visible="false" editable="false" desc="The maximum device frequency" />
+
+    <ParamChoice id="configuration" name="Configuration" group="General" default="auto" visible="true" editable="true" desc="Choose the automatic or manual PLL tuning">
+      <Entry name="Automatic" value="auto"   visible="true"/>
+      <Entry name="Manual"    value="manual" visible="true"/>
+    </ParamChoice>
+    <ParamBool id="manConfig" name="Manual PLL Configuration" group="Internal" default="`${configuration eq manual}`" visible="false" editable="false" desc="" />
+    <ParamRange id="desiredFrequency" name="Desired Frequency (MHz)" group="General" default="`${maxFrequency}`" min="`${22.5 / 8}`" max="`${maxFrequency}`" resolution="0.001" visible="`${!manConfig}`" editable="true" desc="" />
+
+    <ParamString id="callSolver" name="callSolver" group="Internal" default="`${!error ? runTcl(&quot;pll_solver-1.0.tcl&quot;, sourceFreq / 1000000.0, desiredFrequency) : &quot;error&quot;}`" visible="false" editable="false" desc="PLL clock solver" />
+    <ParamRange id="feedback" name="Feedback divider (8-255)" group="General" default="`${!error ? getTclVar(&quot;feedbackDiv&quot;, callSolver) : 8}`" min="8" max="255" resolution="1"  visible="true" editable="`${manConfig}`" desc="The feedback clock divider" />
+    <ParamRange id="reference" name="Reference divider (1-64)" group="General" default="`${!error ? getTclVar(&quot;referenceDiv&quot;, callSolver) : 1}`" min="1" max="64" resolution="1"  visible="true" editable="`${manConfig}`" desc="The reference clock divider" />
+    <ParamRange id="output" name="Output divider (1-8)" group="General" default="`${!error ? getTclVar(&quot;outputDiv&quot;, callSolver) : 1}`" min="1" max="8" resolution="1"  visible="true" editable="`${manConfig}`" desc="The output clock divider" />
+
+    <ParamRange id="frequency" name="Frequency" group="Internal" default="`${sourceFreq * feedback / reference / output}`" min="`${!error ? 22500000 / 8 : 0}`" max="`${maxFrequency * 1000000}`" resolution="1" visible="false" editable="false" desc="" />
+    <ParamString id="frequencyInfo" name="Actual Frequency" group="General" default="`${formatFrequency(frequency,accuracy)}`" visible="true" editable="false" desc="The calculated resulting PLL output frequency" />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="Source clock for PLL`${clockInst}` is not enabled" condition="`${srcNotUsed &amp;&amp; hasBlock(&quot;exco[0].pll[0]&quot;)}`" >
+      <FixIt action="ENABLE_BLOCK" target="`${sourceClockRsc}`" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="cy_sysclk.h" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL`${clockInst}`_ENABLED" value="1" public="false" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL`${clockInst}`_FREQ" value="`${frequency}`UL" public="true" include="true" />
+    <ConfigStruct name="`${INST_NAME . &quot;_pllConfig&quot;}`" type="cy_stc_sysclk_pll_manual_config_t" const="true" public="false" include="true" >
+      <Member name="feedbackDiv" value="`${feedback}`U" />
+      <Member name="referenceDiv" value="`${reference - 1}`U" />
+      <Member name="outputDiv" value="`${output eq 1 ? 0 : 
+                                         output eq 2 ? 1 :
+                                         output eq 4 ? 2 : 3}`U" />
+      <Member name="icp" value="`${frequency le 67000000 ? 2 : 3}`U" />
+    </ConfigStruct>
+    <ConfigFunction signature="__STATIC_INLINE void Cy_SysClk_Pll`${clockInst}`Init()" body="    cy_en_sysclk_status_t status;&#xA;    status = Cy_SysClk_PllManualConfigure(`${clockInst}`U, &amp;`${INST_NAME}`_pllConfig);&#xA;    if (CY_SYSCLK_SUCCESS != status)&#xA;    {&#xA;        cycfg_ClockStartupError(CY_CFG_SYSCLK_PLL_CFG_ERROR, status);&#xA;    }&#xA;    status = Cy_SysClk_PllEnable(`${clockInst}`U, 10000u);    if (CY_SYSCLK_SUCCESS != status)&#xA;    {&#xA;        cycfg_ClockStartupError(CY_CFG_SYSCLK_PLL_EN_ERROR, status);&#xA;    }" public="false" include="true" />
+  </ConfigFirmware>
+</Personality>

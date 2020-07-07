@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.3" template="Empty (11&quot; x 8.5&quot;)" xmlns="http://cypress.com/xsd/cyvis">
+  <Page index="0" name="Architecture" enabled="true" shapeCount="61">
+    <Instance shapeName="Shape_1" zorder="72" guid="1f58e231-8d24-4b55-83e0-bf6c5dbe639d" name="SYSCLK" component="clock_side">
+      <Location x="471" y="78" />
+      <Size width="78" height="30" />
+      <SubShapes>
+        <Terminal name="SYSCLK.b_17" type="Instance Digital Input">
+          <Location x="474" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="SYSCLK.a_14" type="Instance Digital Output">
+          <Location x="546" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="474" y="78" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="474" y="78" />
+          <Size width="71.99997" height="30" />
+          <Text>SYSCLK</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_171" zorder="69" guid="fe836f86-f10a-4b55-a7de-e451ea459001" name="mux_2" component="mux_3">
+      <Location x="249" y="84" />
+      <Size width="18" height="48" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="mux_2.a_0" type="Instance Digital Output">
+          <Location x="264" y="108" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_2.b_3" type="Instance Digital Input">
+          <Location x="252" y="120" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_2.b_4" type="Instance Digital Input">
+          <Location x="252" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <ClosedShape>
+          <Point x="252" y="90" />
+          <Point x="264" y="95.53846" />
+          <Point x="264" y="120.4615" />
+          <Point x="252" y="126" />
+          <Point x="252" y="90" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="255" y="132" />
+          <Size width="6" height="48" />
+          <Text />
+          <Vertical value="true" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 7pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_174" zorder="14" effectiveName="Net_130" type="Digital">
+      <Point1 x="240" y="96" />
+      <Point2 x="252" y="96" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_201" zorder="16" effectiveName="Net_307" type="Digital">
+      <Point1 x="126" y="102" solderDot="true" />
+      <Point2 x="138" y="102" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_216" zorder="18" effectiveName="Net_356" type="Digital">
+      <Point1 x="126" y="90" />
+      <Point2 x="138" y="90" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_259" zorder="0" effectiveName="Net_308" type="Digital">
+      <Point1 x="330" y="96" />
+      <Point2 x="348" y="96" />
+    </Wire>
+    <Wire shapeName="Shape_270" zorder="12" effectiveName="Net_65" type="Digital">
+      <Point1 x="156" y="96" />
+      <Point2 x="168" y="96" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_276" zorder="24" effectiveName="Net_307" type="Digital">
+      <Point1 x="168" y="120" />
+      <Point2 x="168" y="132" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_303" zorder="6" effectiveName="Net_667" type="Digital">
+      <Point1 x="240" y="192" />
+      <Point2 x="258" y="192" />
+    </Wire>
+    <Wire shapeName="Shape_541" zorder="26" effectiveName="Net_307" type="Digital">
+      <Point1 x="168" y="120" />
+      <Point2 x="252" y="120" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_542" zorder="28" effectiveName="Net_307" type="Digital">
+      <Point1 x="126" y="132" />
+      <Point2 x="168" y="132" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_844" zorder="22" effectiveName="Net_356" type="Digital">
+      <Point1 x="126" y="60" solderDot="true" />
+      <Point2 x="126" y="90" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_878" zorder="61" guid="223402ba-e913-40ed-b383-b7764ec49905" name="ECO_1" component="clock_side">
+      <Location x="35.99999" y="84" />
+      <Size width="75.00001" height="30" />
+      <SubShapes>
+        <Terminal name="ECO_1.a_14" type="Instance Digital Output">
+          <Location x="108" y="102" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="36" y="84" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="35.99999" y="84" />
+          <Size width="71.99999" height="30" />
+          <Text>ECO</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_884" zorder="67" guid="e7bb5278-6591-498b-be2e-c8ab5bd0471d" name="PLL_SEL" component="mux_2">
+      <Location x="135" y="66.00001" />
+      <Size width="24" height="59.99998" />
+      <SubShapes>
+        <Terminal name="PLL_SEL.b_21" type="Instance Digital Input">
+          <Location x="138" y="102" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="PLL_SEL.b_23" type="Instance Digital Input">
+          <Location x="138" y="90" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="PLL_SEL.a_8" type="Instance Digital Output">
+          <Location x="156" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <ClosedShape>
+          <Point x="138" y="66.00001" />
+          <Point x="156" y="75.23077" />
+          <Point x="156" y="116.7692" />
+          <Point x="138" y="126" />
+          <Point x="138" y="66.00001" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="138" y="120" />
+          <Size width="18" height="48" />
+          <Text>PLL_SEL</Text>
+          <Vertical value="true" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 7pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_886" zorder="71" guid="ed430eaa-9543-4b06-83b3-be75bac9b7e1" name="HFCLK" component="clock_side">
+      <Location x="345" y="78" />
+      <Size width="78" height="30" />
+      <SubShapes>
+        <Terminal name="HFCLK.b_17" type="Instance Digital Input">
+          <Location x="348" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="HFCLK.a_14" type="Instance Digital Output">
+          <Location x="420" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="348" y="78" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="348" y="78" />
+          <Size width="72" height="30" />
+          <Text>HFCLK</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_904" zorder="30" effectiveName="Net_710" type="Digital">
+      <Point1 x="126" y="216" />
+      <Point2 x="144" y="216" />
+      <ShapeTags>wl:wco[0].wdc[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_905" zorder="4" effectiveName="Net_710" type="Digital">
+      <Point1 x="108" y="186" />
+      <Point2 x="126" y="186" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_916" zorder="10" effectiveName="Net_356" type="Digital">
+      <Point1 x="108" y="60" />
+      <Point2 x="126" y="60" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_928" zorder="32" effectiveName="Net_307" type="Digital">
+      <Point1 x="108" y="102" />
+      <Point2 x="126" y="102" solderDot="true" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_932" zorder="20" effectiveName="Net_307" type="Digital">
+      <Point1 x="126" y="102" solderDot="true" />
+      <Point2 x="126" y="132" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_993" zorder="34" effectiveName="Net_356" type="Digital">
+      <Point1 x="300" y="60" solderDot="true" />
+      <Point2 x="300" y="84" />
+    </Wire>
+    <Wire shapeName="Shape_994" zorder="36" effectiveName="Net_356" type="Digital">
+      <Point1 x="300" y="84" />
+      <Point2 x="318" y="84" />
+    </Wire>
+    <Wire shapeName="Shape_995" zorder="38" effectiveName="Net_545" type="Digital">
+      <Point1 x="282" y="96" />
+      <Point2 x="282" y="108" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1025" zorder="40" effectiveName="Net_356" type="Digital">
+      <Point1 x="126" y="60" solderDot="true" />
+      <Point2 x="300" y="60" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_1027" zorder="42" effectiveName="Net_52" type="Digital">
+      <Point1 x="108" y="144" />
+      <Point2 x="300" y="144" />
+    </Wire>
+    <Wire shapeName="Shape_1032" zorder="8" effectiveName="Net_252" type="Digital">
+      <Point1 x="156" y="222" />
+      <Point2 x="258" y="222" />
+      <ShapeTags>wl:wco[0].wdc[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1041" zorder="44" effectiveName="Net_545" type="Digital">
+      <Point1 x="282" y="96" />
+      <Point2 x="318" y="96" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1042" zorder="46" effectiveName="Net_545" type="Digital">
+      <Point1 x="264" y="108" />
+      <Point2 x="282" y="108" />
+      <ShapeTags>wl:exco[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1049" zorder="48" effectiveName="Net_52" type="Digital">
+      <Point1 x="300" y="108" />
+      <Point2 x="300" y="144" />
+    </Wire>
+    <Wire shapeName="Shape_1050" zorder="50" effectiveName="Net_52" type="Digital">
+      <Point1 x="300" y="108" />
+      <Point2 x="318" y="108" />
+    </Wire>
+    <Annotation shapeName="Shape_1066" zorder="52">
+      <Location x="258.3574" y="192" />
+      <Text>Watchdog Timer (WDT)</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="128, 128, 128" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 8pt" />
+      <TextAlignment value="MiddleLeft" />
+    </Annotation>
+    <Annotation shapeName="Shape_1067" zorder="53">
+      <Location x="258.3574" y="222" />
+      <Text>Watchdog Counters (WDC)</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="128, 128, 128" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 8pt" />
+      <TextAlignment value="MiddleLeft" />
+      <ShapeTags>wl:wco[0].wdc[0]</ShapeTags>
+    </Annotation>
+    <Instance shapeName="Shape_1069" zorder="64" guid="5b096a3e-cdaf-44de-978b-05d85ad23228" name="WCO_2" component="clock_side">
+      <Location x="35.99999" y="210" />
+      <Size width="75.00001" height="30" />
+      <SubShapes>
+        <Terminal name="WCO_2.a_14" type="Instance Digital Output">
+          <Location x="108" y="228" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="36" y="210" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="35.99999" y="210" />
+          <Size width="71.99999" height="30" />
+          <Text>WCO</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_1087" zorder="65" guid="6e9487ee-9e65-4558-9fb7-126fb35dcd0e" name="mux_1" component="mux_3">
+      <Location x="141" y="198" />
+      <Size width="18" height="48" />
+      <ShapeTags>wl:wco[0].wdc[0]</ShapeTags>
+      <SubShapes>
+        <Terminal name="mux_1.a_0" type="Instance Digital Output">
+          <Location x="156" y="222" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_1.b_3" type="Instance Digital Input">
+          <Location x="144" y="234" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_1.b_1" type="Instance Digital Input">
+          <Location x="144" y="228" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_1.b_0" type="Instance Digital Input">
+          <Location x="144" y="222" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_1.b_2" type="Instance Digital Input">
+          <Location x="144" y="216" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_1.b_4" type="Instance Digital Input">
+          <Location x="144" y="210" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <ClosedShape>
+          <Point x="144" y="204" />
+          <Point x="156" y="209.5385" />
+          <Point x="156" y="234.4615" />
+          <Point x="144" y="240" />
+          <Point x="144" y="204" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="147" y="246" />
+          <Size width="6" height="48" />
+          <Text />
+          <Vertical value="true" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 7pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_1106" zorder="54" effectiveName="Net_710" type="Digital">
+      <Point1 x="126" y="186" solderDot="true" />
+      <Point2 x="168" y="186" />
+    </Wire>
+    <Wire shapeName="Shape_1115" zorder="56" effectiveName="Net_193" type="Digital">
+      <Point1 x="108" y="228" />
+      <Point2 x="144" y="228" />
+      <ShapeTags>wl:wco[0].wdc[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1116" zorder="58" effectiveName="Net_710" type="Digital">
+      <Point1 x="126" y="186" solderDot="true" />
+      <Point2 x="126" y="216" />
+      <ShapeTags>wl:wco[0].wdc[0]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_1118" zorder="73" guid="b1019878-cbc4-4ca5-9df2-4fee320fa13c" name="PUMPCLK" component="clock_side">
+      <Location x="471" y="36" />
+      <Size width="75" height="30" />
+      <SubShapes>
+        <Terminal name="PUMPCLK.b_17" type="Instance Digital Input">
+          <Location x="474" y="54" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="474" y="36" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="474" y="36" />
+          <Size width="71.99997" height="30" />
+          <Text>PUMPCLK</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_1122" zorder="74" effectiveName="Net_714" type="Digital">
+      <Point1 x="456" y="54" />
+      <Point2 x="474" y="54" />
+    </Wire>
+    <Wire shapeName="Shape_1155" zorder="2" effectiveName="Net_605" type="Digital">
+      <Point1 x="420" y="96" />
+      <Point2 x="432" y="96" solderDot="true" />
+    </Wire>
+    <Instance shapeName="Shape_1157" zorder="76" guid="a2592e62-0a85-4880-9091-69d2a316170b" name="mux_4" component="mux_3">
+      <Location x="441" y="30" />
+      <Size width="18" height="48" />
+      <SubShapes>
+        <Terminal name="mux_4.a_0" type="Instance Digital Output">
+          <Location x="456" y="54" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_4.b_3" type="Instance Digital Input">
+          <Location x="444" y="66" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_4.b_1" type="Instance Digital Input">
+          <Location x="444" y="60" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_4.b_0" type="Instance Digital Input">
+          <Location x="444" y="54" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_4.b_2" type="Instance Digital Input">
+          <Location x="444" y="48" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_4.b_4" type="Instance Digital Input">
+          <Location x="444" y="42" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <ClosedShape>
+          <Point x="444" y="36" />
+          <Point x="456" y="41.53846" />
+          <Point x="456" y="66.46153" />
+          <Point x="444" y="72" />
+          <Point x="444" y="36" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="447" y="78" />
+          <Size width="6" height="48" />
+          <Text />
+          <Vertical value="true" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 7pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_1172" zorder="77" effectiveName="Net_356" type="Digital">
+      <Point1 x="300" y="48" />
+      <Point2 x="444" y="48" />
+    </Wire>
+    <Instance shapeName="Shape_1175" zorder="70" guid="bf0d96fc-8e58-4150-9255-a0d278aea00d" name="mux" component="mux_3">
+      <Location x="315" y="72" />
+      <Size width="18" height="48" />
+      <SubShapes>
+        <Terminal name="mux.a_0" type="Instance Digital Output">
+          <Location x="330" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux.b_3" type="Instance Digital Input">
+          <Location x="318" y="108" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux.b_0" type="Instance Digital Input">
+          <Location x="318" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux.b_4" type="Instance Digital Input">
+          <Location x="318" y="84" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <ClosedShape>
+          <Point x="318" y="78" />
+          <Point x="330" y="83.53846" />
+          <Point x="330" y="108.4615" />
+          <Point x="318" y="114" />
+          <Point x="318" y="78" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="321" y="120" />
+          <Size width="6" height="48" />
+          <Text />
+          <Vertical value="true" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 7pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_1176" zorder="79" effectiveName="Net_605" type="Digital">
+      <Point1 x="432" y="60" />
+      <Point2 x="444" y="60" />
+    </Wire>
+    <Wire shapeName="Shape_1181" zorder="81" effectiveName="Net_605" type="Digital">
+      <Point1 x="432" y="96" solderDot="true" />
+      <Point2 x="474" y="96" />
+    </Wire>
+    <Wire shapeName="Shape_1187" zorder="83" effectiveName="Net_356" type="Digital">
+      <Point1 x="300" y="48" />
+      <Point2 x="300" y="60" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_1188" zorder="85" effectiveName="Net_605" type="Digital">
+      <Point1 x="432" y="60" />
+      <Point2 x="432" y="96" solderDot="true" />
+    </Wire>
+    <Instance shapeName="Shape_1357" zorder="94" guid="3dd53e37-e08f-47a2-9422-fff6618f21f0" name="mux_3" component="mux_3">
+      <Location x="441" y="144" />
+      <Size width="18" height="48" />
+      <SubShapes>
+        <Terminal name="mux_3.a_0" type="Instance Digital Output">
+          <Location x="456" y="168" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_3.b_3" type="Instance Digital Input">
+          <Location x="444" y="180" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_3.b_1" type="Instance Digital Input">
+          <Location x="444" y="174" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_3.b_0" type="Instance Digital Input">
+          <Location x="444" y="168" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_3.b_2" type="Instance Digital Input">
+          <Location x="444" y="162" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="mux_3.b_4" type="Instance Digital Input">
+          <Location x="444" y="156" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <ClosedShape>
+          <Point x="444" y="150" />
+          <Point x="456" y="155.5385" />
+          <Point x="456" y="180.4615" />
+          <Point x="444" y="186" />
+          <Point x="444" y="150" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="447" y="192" />
+          <Size width="6" height="48" />
+          <Text />
+          <Vertical value="true" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 7pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_1358" zorder="88" effectiveName="Net_668" type="Digital">
+      <Point1 x="240" y="174" />
+      <Point2 x="444" y="174" />
+    </Wire>
+    <Wire shapeName="Shape_1365" zorder="92" effectiveName="Net_755" type="Digital">
+      <Point1 x="456" y="168" />
+      <Point2 x="474" y="168" />
+    </Wire>
+    <Wire shapeName="Shape_1374" zorder="95" effectiveName="Net_774" type="Digital">
+      <Point1 x="558" y="96" />
+      <Point2 x="558" y="132" />
+    </Wire>
+    <Wire shapeName="Shape_1375" zorder="97" effectiveName="Net_774" type="Digital">
+      <Point1 x="426" y="162" />
+      <Point2 x="444" y="162" />
+    </Wire>
+    <Wire shapeName="Shape_1376" zorder="99" effectiveName="Net_774" type="Digital">
+      <Point1 x="426" y="132" />
+      <Point2 x="426" y="162" />
+    </Wire>
+    <Wire shapeName="Shape_1382" zorder="101" effectiveName="Net_774" type="Digital">
+      <Point1 x="546" y="96" />
+      <Point2 x="558" y="96" />
+    </Wire>
+    <Wire shapeName="Shape_1384" zorder="90" effectiveName="Net_774" type="Digital">
+      <Point1 x="426" y="132" />
+      <Point2 x="558" y="132" />
+    </Wire>
+    <Instance shapeName="Shape_2169" zorder="60" guid="09373d34-20d2-4303-a52b-d96300ec4539" name="IMO" component="clock_side">
+      <Location x="35.99999" y="42" />
+      <Size width="75.00001" height="30" />
+      <SubShapes>
+        <Terminal name="IMO.a_14" type="Instance Digital Output">
+          <Location x="108" y="60" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="36" y="42" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="35.99999" y="42" />
+          <Size width="71.99999" height="30" />
+          <Text>IMO</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2171" zorder="62" guid="d4804264-56ed-4c5f-85dc-58f119f3ce2a" name="EXTCLK" component="clock_side">
+      <Location x="35.99999" y="126" />
+      <Size width="75.00001" height="30" />
+      <SubShapes>
+        <Terminal name="EXTCLK.a_14" type="Instance Digital Output">
+          <Location x="108" y="144" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="36" y="126" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="35.99999" y="126" />
+          <Size width="71.99999" height="30" />
+          <Text>EXTCLK</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2173" zorder="63" guid="0e99d209-20fa-443b-a72a-27394adbbc79" name="ILO" component="clock_side">
+      <Location x="35.99999" y="168" />
+      <Size width="75.00001" height="30" />
+      <SubShapes>
+        <Terminal name="ILO.a_14" type="Instance Digital Output">
+          <Location x="108" y="186" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="36" y="168" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="35.99999" y="168" />
+          <Size width="71.99999" height="30" />
+          <Text>ILO</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2265" zorder="68" guid="378cd5c3-d1cd-43c6-bd19-2ed89dfa9e7b" name="PLL" component="clock_side">
+      <Location x="165" y="78" />
+      <Size width="78" height="30" />
+      <SubShapes>
+        <Terminal name="PLL.b_17" type="Instance Digital Input">
+          <Location x="168" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="PLL.a_14" type="Instance Digital Output">
+          <Location x="240" y="96" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="168" y="78" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="168" y="78" />
+          <Size width="71.99998" height="30" />
+          <Text>PLL</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2267" zorder="87" guid="617e9552-644b-49c0-944d-007ba3c4f5c0" name="CLK_ALT_SYS_TICK_1" component="clock_side">
+      <Location x="471" y="150" />
+      <Size width="75" height="30" />
+      <SubShapes>
+        <Terminal name="CLK_ALT_SYS_TICK_1.b_17" type="Instance Digital Input">
+          <Location x="474" y="168" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="474" y="150" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="474" y="150" />
+          <Size width="71.99997" height="30" />
+          <Text>SYSTICK</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2268" zorder="66" guid="a6d20d3e-411a-4a6f-a79b-71911287a237" name="LFCLK" component="clock_side">
+      <Location x="165" y="168" />
+      <Size width="78" height="30" />
+      <SubShapes>
+        <Terminal name="LFCLK.b_17" type="Instance Digital Input">
+          <Location x="168" y="186" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="LFCLK.a_2" type="Instance Digital Output">
+          <Location x="240" y="192" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Terminal name="LFCLK.a_3" type="Instance Digital Output">
+          <Location x="240" y="174" />
+          <ShowWireGuide value="true" />
+        </Terminal>
+        <Rectangle>
+          <Location x="168" y="168" />
+          <Size width="72" height="30" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="168" y="168" />
+          <Size width="71.99998" height="30" />
+          <Text>LFCLK</Text>
+          <Vertical value="false" />
+          <Expression>`=$name`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+  </Page>
+</Document>

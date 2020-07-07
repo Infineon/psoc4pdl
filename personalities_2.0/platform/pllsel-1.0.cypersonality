@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file pllsel.cypersonality
+* \version 1.0
+*
+* \brief
+* PLL_SEL personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="m0s8pllsel" name="PLL_SEL" version="1.0" path="Clocks/Fast" xmlns="http://cypress.com/xsd/cyhwpersonality_v1">
+  <Dependencies>
+    <IpBlock name="m0s8exco,m0s8exco_ver2" />
+    <Resource name="exco\.pll_sel" used="true" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="frequency"     paramId="frequency" />
+    <ExposedMember key="accuracy"      paramId="accuracy" />
+    <ExposedMember key="sourceClock"   paramId="sourceClock" />
+    <ExposedMember key="error"         paramId="error" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- PDL documentation -->
+    <ParamDoc id="pdlDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/pdl_api_reference_manual/html/group__group__sysclk__pll.html" linkText="Open PLL Documentation" visible="true" desc="Opens the Peripheral Driver Library Documentation" />
+
+    <ParamRange id="clockInst" name="PLL_SEL Instance" group="Interal" default="`${getInstNumber(&quot;pll_sel&quot;)}`" min="0" max="1" resolution="1" visible="false" editable="false" desc="" /> 
+    <ParamChoice id="sourceClock" name="Source Clock" group="General" default="eco" visible="true" editable="true" desc="The clock source for PLL`${clockInst}`">
+      <Entry name="ECO"    value="eco"    visible="true"/>
+      <Entry name="IMO"    value="imo"    visible="true"/>
+    </ParamChoice>
+    <ParamString id="sourceClockRsc" name="Source Clock Resource" group="Internal" default="`${sourceClock eq eco ? &quot;exco[0]&quot; : &quot;srss[0].clock[0].imo[0]&quot;}`" visible="false" editable="false" desc="" />
+    <ParamString id="sourceClockApiName" name="Source Clock Name" group="Internal" default="`${sourceClock eq eco ? &quot;ECO&quot; : &quot;IMO&quot;}`" visible="false" editable="false" desc="" />
+    <!-- Set an error if the source clock is not enabled -->
+    <ParamBool id="error" name="Clock Error" group="Internal" default="`${!isBlockUsed(sourceClockRsc) || getExposedMember(sourceClockRsc, &quot;error&quot;)}`" visible="false" editable="false" desc="" />
+    <!-- Use default values in case of error -->
+    <ParamRange id="frequency" name="Frequency" group="Internal" default="`${!error ? getExposedMember(sourceClockRsc, &quot;frequency&quot;) : 0}`" min="0" max="100000000" resolution="1" visible="false" editable="false" desc="" />
+    <ParamString id="accuracy" name="accuracy" group="Internal" default="`${!error ? getExposedMember(sourceClockRsc, &quot;accuracy&quot;) : 0}`" visible="false" editable="false" desc="" />
+
+    <!-- If the frequency is less than one MHz, display its value in kHz -->    
+    <ParamString id="frequencyInfo" name="Source Frequency" group="General" default="`${formatFrequency(frequency,accuracy)}`" visible="true" editable="false" desc="The Pll Clock Source frequency provided by the chosen clock source" />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="Source clock for PLL`${clockInst}`_SEL is not enabled" condition="`${error}`" >
+      <FixIt action="ENABLE_BLOCK" target="`${sourceClockRsc}`" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="cy_sysclk.h" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL`${clockInst}`_SOURCE_ENABLED" value="1" public="false" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL`${clockInst}`_SOURCE" value="CY_SYSCLK_PLL_SRC_`${sourceClockApiName}`" public="false" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL`${clockInst}`_SOURCE_FREQ" value="`${frequency}`UL" public="false" include="true" />
+    <ConfigFunction signature="__STATIC_INLINE void Cy_SysClk_Pll`${clockInst}`SourceInit()" body="    cy_en_sysclk_status_t status;&#xA;    status = Cy_SysClk_PllSetSource(`${clockInst}`U, CY_CFG_SYSCLK_PLL`${clockInst}`_SOURCE);&#xA;    if (CY_SYSCLK_SUCCESS != status)&#xA;    {&#xA;        cycfg_ClockStartupError(CY_CFG_SYSCLK_PLL_SRC_ERROR, status);&#xA;    }&#xA;" public="false" include="true" />
+  </ConfigFirmware>
+</Personality>

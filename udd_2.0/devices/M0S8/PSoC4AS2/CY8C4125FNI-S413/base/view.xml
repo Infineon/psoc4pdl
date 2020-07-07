@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<baseview>
+  <mcu>
+  </mcu>
+  <vendor>Cypress</vendor>
+  <flash>32768</flash>
+  <ram>4096</ram>
+  <package>35-WLCSP</package>
+  <minvoltage>1710</minvoltage>
+  <maxvoltage>5500</maxvoltage>
+  <description>The CY8C4125FNI-S413 device.</description>
+</baseview>

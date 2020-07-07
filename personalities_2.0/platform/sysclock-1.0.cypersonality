@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file sysclock.cypersonality
+* \version 1.0
+*
+* \brief
+* SysClocks personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="m0s8sysclocks" name="SysClocks" version="1.0" path="Clocks" xmlns="http://cypress.com/xsd/cyhwpersonality_v1">
+  <Dependencies>
+    <IpBlock name="s8srsslt" />
+    <Resource name="srss\.clock" used="true" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <ParamString id="description" name="" group="About" default="This personality has no configuration options. It is used to generate an overall configuration function for setting all the system clock options. The code preview shows what will be generated based on the current configuration. The generated code will be located in GeneratedSource/cycfg_system.c" visible="true" editable="false" desc="" />
+  </Parameters>
+
+  <ConfigFirmware>
+    <ConfigInclude value="cy_sysclk.h" include="true" />
+    
+    <ConfigDefine name="CY_CFG_SYSCLK_ECO_CFG_ERROR"   value="1" public="true" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_ECO_EN_ERROR"    value="2" public="true" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL_SRC_ERROR"   value="3" public="true" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL_CFG_ERROR"   value="4" public="true" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_PLL_EN_ERROR"    value="5" public="true" include="true" />
+    <ConfigDefine name="CY_CFG_SYSCLK_HF_SRC_ERROR"    value="6" public="true" include="true" />
+   
+    <ConfigFunction signature="__WEAK void cycfg_ClockStartupError(uint32_t error, cy_en_sysclk_status_t status)" body="    CY_UNUSED_PARAMETER(error);&#xA;    CY_UNUSED_PARAMETER(status);&#xA;    CY_ASSERT_L1(false);" public="true" include="true" replicateForAliases="false" />
+    
+    <!-- Configure flash wait states -->
+    <ConfigInstruction value="/* Set worst case memory wait states (48 MHz), will update at the end */" include="true" />
+    <ConfigInstruction value="Cy_SysLib_SetWaitStates(48);" include="true" />
+    
+   
+    <!-- Configure power options -->
+    <ConfigInstruction value="#ifdef CY_CFG_PWR_ENABLED" include="true" />
+    <ConfigInstruction value="    #ifdef CY_CFG_PWR_INIT" include="true" />
+    <ConfigInstruction value="    init_cycfg_power();" include="true" />
+    <ConfigInstruction value="    #else" include="true" />
+    <ConfigInstruction value="    #warning Power system will not be configured. Update power personality to v1.20 or later." include="true" />
+    <ConfigInstruction value="    #endif /* CY_CFG_PWR_INIT */" include="true" />
+    <ConfigInstruction value="#endif /* CY_CFG_PWR_ENABLED */" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <ConfigInstruction value="/* Reset the platform clocks configuration to teh default state */" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ImoEnable();" include="true" />
+    <ConfigInstruction value="(void)Cy_SysClk_ImoSetFrequency(CY_SYSCLK_IMO_24MHZ);" include="true" />
+    <ConfigInstruction value="(void)Cy_SysClk_ClkHfSetSource(CY_SYSCLK_CLKHF_IN_IMO);" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ClkHfSetDivider(CY_SYSCLK_NO_DIV);" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ClkSysSetDivider(CY_SYSCLK_NO_DIV);" include="true" />
+    <ConfigInstruction value="(void)Cy_SysClk_ClkPumpSetSource(CY_SYSCLK_PUMP_IN_GND);" include="true" />
+    
+    <ConfigInstruction value="#ifdef CY_IP_M0S8EXCO" include="true" />
+    <!-- ConfigInstruction value="for (uint32_t pll = CY_SRSS_NUM_PLL; pll > 0UL; - - pll) /* PLL 1 is the first PLL. 0 is invalid. */" include="true" />
+    <ConfigInstruction value="{" include="true" /-->
+    <ConfigInstruction value="(void)Cy_SysClk_PllDisable(0U);" include="true" />
+    <!-- ConfigInstruction value="}" include="true" /-->
+    <ConfigInstruction value="#endif /* CY_IP_M0S8EXCO */" include="true" />
+    <ConfigInstruction value="" include="true" />
+    
+    <!-- Enable all source clocks -->
+    <ConfigInstruction value="/* Enable all source clocks */" include="true" />
+
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_WCO_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_WcoInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_IMO_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ImoInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_ECO_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_EcoInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_EXTCLK_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ExtClkInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <!-- If CLKHF clocked from ECO -->
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_CLKHF_ENABLED" include="true" />
+    <ConfigInstruction value="#if (CY_CFG_SYSCLK_CLKHF_SOURCE == CY_SYSCLK_CLKHF_IN_ECO)" include="true" />
+    <ConfigInstruction value="    /* Configure HFCLK to temporarily run from IMO to initialize other clocks */" include="true" />
+    <ConfigInstruction value="    Cy_SysClk_ClkHfSetSource(CY_SYSCLK_CLKHF_IN_IMO);" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+    
+
+    <ConfigInstruction value="/* Configure and enable PLLs */" include="true" />
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_PLL0_ENABLED" include="true" />
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_PLL0_SOURCE_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_Pll0SourceInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="Cy_SysClk_Pll0Init();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_PLL1_ENABLED" include="true" />
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_PLL1_SOURCE_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_Pll1SourceInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="Cy_SysClk_Pll1Init();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <!-- Configure HF clock -->
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_HFCLK_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ClkHfInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <!-- Configure CPU clock divider -->
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_CLKSYS_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ClkSysInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <!-- Configure miscellaneous clocks -->
+    <ConfigInstruction value="/* Configure miscellaneous clocks */" include="true" />
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_CLKTIMER_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ClkTimerInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_SYSTICK_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_SysTickInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_CLKPUMP_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ClkPumpInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_CLKBAK_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_ClkBakInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <!-- Configure default enabled clocks -->
+    <ConfigInstruction value="/* Configure default enabled clocks */" include="true" />
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_ILO_ENABLED" include="true" />
+    <ConfigInstruction value="Cy_SysClk_IloInit();" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <!-- Configure final flash wait states -->
+    <ConfigInstruction value="#ifdef CY_CFG_SYSCLK_CLKSYS_ENABLED" include="true" />
+    <ConfigInstruction value="/* Set accurate flash wait states */" include="true" />
+    <ConfigInstruction value="Cy_SysLib_SetWaitStates(CY_CFG_SYSCLK_CLKSYS_FREQ_MHZ);" include="true" />
+    <ConfigInstruction value="#else" include="true" />
+    <ConfigInstruction value="Cy_SysLib_SetWaitStates(Cy_SysClk_ClkSysGetFrequency()/1000000);" include="true" />
+    <ConfigInstruction value="#endif" include="true" />
+    <ConfigInstruction value="" include="true" />
+
+    <!-- Update System Core Clock values -->
+    <ConfigInstruction value="/* Update System Core Clock values for correct Cy_SysLib_Delay functioning */" include="true" />
+    <ConfigInstruction value="SystemCoreClockUpdate();" include="true" />
+
+  </ConfigFirmware>
+</Personality>

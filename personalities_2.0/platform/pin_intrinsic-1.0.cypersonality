@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file pin_intrinsic-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Intrinsic pin personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="m0s8pin_intrinsic" name="Pin-Instrinsic" intrinsic="true" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v2">
+  <Dependencies>
+    <IpBlock name="m0s8ioss" />
+    <Resource name="ioss\.port" />
+  </Dependencies>
+  <ExposedMembers/>
+  <Parameters/>
+  <DRCs>
+    
+    <DRC type="ERROR" text="Correct the slew rate parameter to be the same for all the pins in Port `${getInstNumber(&quot;port&quot;)}`" condition="`${
+      ((isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_FAST&quot;) ? false : true) : false))
+      &amp;&amp;
+      ((isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;, &quot;slewRate&quot;) eq &quot;CY_GPIO_SLEW_SLOW&quot;) ? false : true) : false))
+      }`" />
+      
+    <DRC type="ERROR" text="Correct the threshold parameter to be the same for all the pins in Port `${getInstNumber(&quot;port&quot;)}`" condition="`${
+      ((isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_CMOS&quot;) ? false : true) : false))
+      &amp;&amp;
+      ((isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[0]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[1]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[2]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[3]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[4]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[5]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[6]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false)
+      ||
+      (isBlockUsed(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;) ? 
+        ((getExposedMember(&quot;ioss[0].port[&quot; . getInstNumber(&quot;port&quot;) . &quot;].pin[7]&quot;, &quot;vtrip&quot;) eq &quot;CY_GPIO_VTRIP_TTL&quot;) ? false : true) : false))
+      }`" />
+  </DRCs>
+  <ConfigFirmware/>
+</Personality>

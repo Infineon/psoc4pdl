@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file power.cypersonality
+* \version 1.0
+*
+* \brief
+* Power personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="m0s8power" name="Power Settings" version="1.0" path="Power" xmlns="http://cypress.com/xsd/cyhwpersonality_v1">
+  <Dependencies>
+    <IpBlock name="s8srsslt" />
+    <Resource name="srss\.power" used="true" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="vddaMv" paramId="vddaMv" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- Documentation -->
+    <ParamDoc id="pdlDoc" name="SysPm API Reference" group="Documentation" default="file:///`${cy_libs_path()}`/docs/pdl_api_reference_manual/html/group__group__syspm.html" linkText="Open SysPm Documentation" visible="true" desc="Opens the Peripheral Driver Library Documentation" />
+
+    <!-- Operating conditions -->
+    <ParamRange id="vddaMv"    name="VDDA Voltage (mV)"    group="Operating Conditions" default="3300" min="1710" max="5500" resolution="1" visible="true" editable="true" desc="VDDA voltage in millivolts." />
+    <ParamRange id="vdddMv"    name="VDDD Voltage (mV)"    group="Operating Conditions" default="3300" min="1710" max="5500" resolution="1" visible="true" editable="true" desc="VDDD voltage in millivolts." />
+
+  </Parameters>
+  
+  <!-- Error checking -->
+  <DRCs>
+    <DRC type="ERROR" text="The input voltage of VDDD is set to `${vdddMv}` which is out of range. The value must be between 1710 and VDDA (`${vddaMv}`)." condition="`${(vdddMv &gt; vddaMv)}`" />
+  </DRCs>
+  
+  <!-- Generated firmware -->
+  <ConfigFirmware>
+    <ConfigInclude value="cy_syspm.h" include="true" />
+
+    <!-- Operating conditions -->
+    <ConfigDefine name="CY_CFG_PWR_VDDA_MV"    public="true" value="`${vddaMv}`" include="true" />
+    <ConfigDefine name="CY_CFG_PWR_VDDD_MV"    public="true" value="`${vdddMv}`" include="true" />
+
+  </ConfigFirmware>
+</Personality>

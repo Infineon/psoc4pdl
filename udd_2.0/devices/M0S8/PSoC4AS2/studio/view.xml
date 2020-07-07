@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xml_version="1" xmlns="http://cypress.com/xsd/cystudiouddviewdie_v1">
+  <Files>
+    <Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />
+    <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
+  </Files>
+</View>
